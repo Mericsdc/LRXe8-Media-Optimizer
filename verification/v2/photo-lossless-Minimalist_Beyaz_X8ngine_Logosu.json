@@ -1,0 +1,44 @@
+{
+ "source": "<MEDIA_ROOT>\\Minimalist Beyaz X8ngine Logosu.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %35.3 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\Minimalist Beyaz X8ngine Logosu.optimized.png",
+ "source_bytes": 349217,
+ "output_bytes": 225991,
+ "elapsed_seconds": 9.375,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "a2bc5b1428a76b4b404f3b91a0ccccb08c2d55814bd37313fb7097d6be540f7a",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "PNG",
+  "dimensions": [
+   2172,
+   724
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "same layout, recompressed IDAT",
+  "output_sha256": "113b3f918406d1ea904eacecb3b38d67715eb97cb7f3991b5060b39633a0d6f6"
+ }
+}

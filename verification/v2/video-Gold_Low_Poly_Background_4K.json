@@ -1,0 +1,615 @@
+{
+ "source": "<MEDIA_ROOT>\\4K video\\Gold Low Poly Background 4K.mov",
+ "status": "optimized",
+ "message": "Doğrulandı · %94.9 daha küçük · libx265 yuv422p10le · VMAF 100.0",
+ "output": "<TEST_WORKSPACE>\\real3\\Gold Low Poly Background 4K.optimized.mov",
+ "source_bytes": 882470858,
+ "output_bytes": 45174093,
+ "elapsed_seconds": 405.406,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixel_format": true,
+  "color_hdr": true,
+  "stream_metadata": true,
+  "chapters": true,
+  "frame_count_and_timing": true,
+  "audio_samples": true,
+  "copied_streams": true,
+  "perceptual_quality": true,
+  "no_added_banding": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "d4d78bbdd7cdea108f2d6233ca876194c271e64010036c8cba23122f0b05408c",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "source": {
+   "streams": [
+    {
+     "index": 0,
+     "codec_name": "mjpeg",
+     "codec_long_name": "Motion JPEG",
+     "profile": "Baseline",
+     "codec_type": "video",
+     "codec_tag_string": "jpeg",
+     "codec_tag": "0x6765706a",
+     "width": 3840,
+     "height": 2160,
+     "coded_width": 3840,
+     "coded_height": 2160,
+     "has_b_frames": 0,
+     "sample_aspect_ratio": "1:1",
+     "display_aspect_ratio": "16:9",
+     "pix_fmt": "yuvj422p",
+     "level": -99,
+     "color_range": "pc",
+     "color_space": "bt709",
+     "color_transfer": "bt709",
+     "color_primaries": "bt709",
+     "chroma_location": "center",
+     "id": "0x1",
+     "r_frame_rate": "30/1",
+     "avg_frame_rate": "30/1",
+     "time_base": "1/30",
+     "start_pts": 0,
+     "start_time": "0.000000",
+     "duration_ts": 300,
+     "duration": "10.000000",
+     "bit_rate": "705954718",
+     "bits_per_raw_sample": "8",
+     "nb_frames": "300",
+     "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+     },
+     "tags": {
+      "creation_time": "2018-06-24T08:04:07.000000Z",
+      "language": "eng",
+      "handler_name": "���������� ����� Apple",
+      "vendor_id": "appl",
+      "encoder": "‘ÓÚÓ - JPEG",
+      "timecode": "00:00:00:00"
+     }
+    },
+    {
+     "index": 1,
+     "codec_type": "data",
+     "codec_tag_string": "tmcd",
+     "codec_tag": "0x64636d74",
+     "id": "0x2",
+     "r_frame_rate": "0/0",
+     "avg_frame_rate": "30/1",
+     "time_base": "1/30",
+     "start_pts": 0,
+     "start_time": "0.000000",
+     "duration_ts": 300,
+     "duration": "10.000000",
+     "bit_rate": "3",
+     "nb_frames": "1",
+     "extradata_size": 18,
+     "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+     },
+     "tags": {
+      "creation_time": "2018-06-24T09:31:31.000000Z",
+      "language": "eng",
+      "handler_name": "���������� ���������� ����",
+      "timecode": "00:00:00:00"
+     }
+    }
+   ],
+   "chapters": [],
+   "format": {
+    "filename": "<MEDIA_ROOT>\\4K video\\Gold Low Poly Background 4K.mov",
+    "nb_streams": 2,
+    "nb_programs": 0,
+    "nb_stream_groups": 1,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "10.000000",
+    "size": "882470858",
+    "bit_rate": "705976686",
+    "probe_score": 100,
+    "tags": {
+     "major_brand": "qt  ",
+     "minor_version": "537199360",
+     "compatible_brands": "qt  ",
+     "creation_time": "2018-06-24T08:04:07.000000Z"
+    }
+   },
+   "video": {
+    "index": 0,
+    "codec_name": "mjpeg",
+    "codec_long_name": "Motion JPEG",
+    "profile": "Baseline",
+    "codec_type": "video",
+    "codec_tag_string": "jpeg",
+    "codec_tag": "0x6765706a",
+    "width": 3840,
+    "height": 2160,
+    "coded_width": 3840,
+    "coded_height": 2160,
+    "has_b_frames": 0,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "pix_fmt": "yuvj422p",
+    "level": -99,
+    "color_range": "pc",
+    "color_space": "bt709",
+    "color_transfer": "bt709",
+    "color_primaries": "bt709",
+    "chroma_location": "center",
+    "id": "0x1",
+    "r_frame_rate": "30/1",
+    "avg_frame_rate": "30/1",
+    "time_base": "1/30",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 300,
+    "duration": "10.000000",
+    "bit_rate": "705954718",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "300",
+    "disposition": {
+     "default": 1,
+     "dub": 0,
+     "original": 0,
+     "comment": 0,
+     "lyrics": 0,
+     "karaoke": 0,
+     "forced": 0,
+     "hearing_impaired": 0,
+     "visual_impaired": 0,
+     "clean_effects": 0,
+     "attached_pic": 0,
+     "timed_thumbnails": 0,
+     "non_diegetic": 0,
+     "captions": 0,
+     "descriptions": 0,
+     "metadata": 0,
+     "dependent": 0,
+     "still_image": 0,
+     "multilayer": 0
+    },
+    "tags": {
+     "creation_time": "2018-06-24T08:04:07.000000Z",
+     "language": "eng",
+     "handler_name": "���������� ����� Apple",
+     "vendor_id": "appl",
+     "encoder": "‘ÓÚÓ - JPEG",
+     "timecode": "00:00:00:00"
+    }
+   },
+   "duration": 10.0
+  },
+  "thresholds": {
+   "vmaf_mean": 98.0,
+   "vmaf_low": 96.0,
+   "cambi_mean": 0.5,
+   "cambi_high": 1.0,
+   "cambi_floor": 1.0,
+   "chroma_psnr": 40.0
+  },
+  "attempts": [
+   {
+    "encoder": "hevc_nvenc",
+    "error": "ffmpeg.exe hata kodu 3752568763: [hevc_nvenc @ 000001f36c057a00] No capable devices found\r\n[vost#0:0/hevc_nvenc @ 000001f36c057700] [enc:hevc_nvenc @ 000001f36bffb7c0] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.\r\n[vf#0:0 @ 000001f36c057dc0] Error sending frames to consumers: Generic error in an external library\r\n[vf#0:0 @ 000001f36c057dc0] Task finished with error code: -542398533 (Generic error in an external library)\r\n[vf#0:0 @ 000001f36c057dc0] Terminating thread with return code -542398533 (Generic error in an external library)\r\n[vost#0:0/hevc_nvenc @ 000001f36c057700] [enc:hevc_nvenc @ 000001f36bffb7c0] Could not open encoder before EOF\r\n[vost#0:0/hevc_nvenc @ 000001f36c057700] Task finished with error code: -22 (Invalid argument)\r\n[vost#0:0/hevc_nvenc @ 000001f36c057700] Terminating thread with return code -22 (Invalid argument)\r\n[out#0/mov @ 000001f36bfc4580] Nothing was written into output file, because at least one of its streams received no packets.\r\n"
+   },
+   {
+    "encoder": "libx265",
+    "search": [
+     {
+      "quality": 11,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 6486902.333333333,
+      "sample_metrics": [
+       {
+        "vmaf": 100.0,
+        "vmaf_low": 100.0,
+        "psnr_cb": 55.0618,
+        "psnr_cr": 54.4116,
+        "cambi_added_mean": 0.0251,
+        "cambi_added_high": 0.1493
+       },
+       {
+        "vmaf": 100.0,
+        "vmaf_low": 100.0,
+        "psnr_cb": 56.0533,
+        "psnr_cr": 54.5142,
+        "cambi_added_mean": 0.0791,
+        "cambi_added_high": 0.2614
+       },
+       {
+        "vmaf": 100.0,
+        "vmaf_low": 100.0,
+        "psnr_cb": 54.9282,
+        "psnr_cr": 54.6012,
+        "cambi_added_mean": 0.0933,
+        "cambi_added_high": 0.2202
+       }
+      ]
+     },
+     {
+      "quality": 12,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 4626778.833333333,
+      "sample_metrics": [
+       {
+        "vmaf": 100.0,
+        "vmaf_low": 100.0,
+        "psnr_cb": 54.7935,
+        "psnr_cr": 54.1313,
+        "cambi_added_mean": 0.1294,
+        "cambi_added_high": 0.3751
+       },
+       {
+        "vmaf": 100.0,
+        "vmaf_low": 100.0,
+        "psnr_cb": 55.8394,
+        "psnr_cr": 54.2526,
+        "cambi_added_mean": 0.2395,
+        "cambi_added_high": 0.5796
+       },
+       {
+        "vmaf": 100.0,
+        "vmaf_low": 100.0,
+        "psnr_cb": 54.6438,
+        "psnr_cr": 54.292,
+        "cambi_added_mean": 0.3289,
+        "cambi_added_high": 0.6134
+       }
+      ]
+     },
+     {
+      "quality": 13,
+      "passed": false,
+      "problems": [
+       "bantlanma artışı 0.47 > 0.5"
+      ],
+      "bytes_per_second": 3481793.25,
+      "sample_metrics": [
+       {
+        "vmaf": 100.0,
+        "vmaf_low": 100.0,
+        "psnr_cb": 54.5465,
+        "psnr_cr": 53.8942,
+        "cambi_added_mean": 0.3968,
+        "cambi_added_high": 0.6691
+       },
+       {
+        "vmaf": 100.0,
+        "vmaf_low": 100.0,
+        "psnr_cb": 55.6229,
+        "psnr_cr": 54.0515,
+        "cambi_added_mean": 0.4702,
+        "cambi_added_high": 0.7966
+       }
+      ]
+     },
+     {
+      "quality": 15,
+      "passed": false,
+      "problems": [
+       "bantlanma artışı 0.92 > 0.5"
+      ],
+      "bytes_per_second": 2145480.0,
+      "sample_metrics": [
+       {
+        "vmaf": 99.9951,
+        "vmaf_low": 99.8528,
+        "psnr_cb": 54.0714,
+        "psnr_cr": 53.4739,
+        "cambi_added_mean": 0.9241,
+        "cambi_added_high": 1.1975
+       }
+      ]
+     },
+     {
+      "quality": 19,
+      "passed": false,
+      "problems": [
+       "bantlanma artışı 2.04 > 0.5",
+       "yerel bantlanma 2.64 > 1.0"
+      ],
+      "bytes_per_second": 1122576.5,
+      "sample_metrics": [
+       {
+        "vmaf": 99.9131,
+        "vmaf_low": 99.3511,
+        "psnr_cb": 52.9444,
+        "psnr_cr": 52.5166,
+        "cambi_added_mean": 2.0399,
+        "cambi_added_high": 2.6365
+       }
+      ]
+     }
+    ],
+    "chosen_quality": 12,
+    "estimated_video_bytes": 46267788,
+    "final_attempts": [],
+    "command": [
+     "<APP_ROOT>\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+     "-hide_banner",
+     "-v",
+     "error",
+     "-nostdin",
+     "-n",
+     "-threads",
+     "16",
+     "-progress",
+     "<TEST_WORKSPACE>\\real3\\.lrxe8-fp5uytlm\\encode.progress",
+     "-stats_period",
+     "1",
+     "-copyts",
+     "-noautorotate",
+     "-i",
+     "<MEDIA_ROOT>\\4K video\\Gold Low Poly Background 4K.mov",
+     "-map",
+     "0",
+     "-map_metadata",
+     "0",
+     "-map_chapters",
+     "0",
+     "-c",
+     "copy",
+     "-c:v:0",
+     "libx265",
+     "-fps_mode:v:0",
+     "passthrough",
+     "-enc_time_base:v:0",
+     "1:30",
+     "-pix_fmt",
+     "yuv422p10le",
+     "-preset",
+     "medium",
+     "-crf",
+     "12",
+     "-x265-params",
+     "pools=16:aq-mode=3:log-level=error",
+     "-color_range",
+     "pc",
+     "-colorspace",
+     "bt709",
+     "-color_trc",
+     "bt709",
+     "-color_primaries",
+     "bt709",
+     "-chroma_sample_location",
+     "center",
+     "-movflags",
+     "+faststart+use_metadata_tags",
+     "-tag:v:0",
+     "hvc1",
+     "<TEST_WORKSPACE>\\real3\\.lrxe8-fp5uytlm\\candidate-libx265-12.mov"
+    ],
+    "timeline": {
+     "frames": 300,
+     "max_timing_error_seconds": 0.0,
+     "source_duration": 10.0,
+     "output_duration": 10.0,
+     "common_shift_seconds": 0.0,
+     "display_intervals": "Every presentation timestamp compared; last-frame duration checked separately",
+     "source_fps": "30/1",
+     "output_fps": "30/1",
+     "source_time_base": "1/30",
+     "output_time_base": "1/15360"
+    },
+    "output_pixel_format": "yuv422p10le",
+    "audio": [],
+    "copied_streams": [
+     {
+      "stream": 1,
+      "hash": "SHA256=df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+     }
+    ],
+    "quality": {
+     "frames_measured": 300,
+     "frames_scored": 300,
+     "vmaf_model": "vmaf_4k_v0.6.1",
+     "vmaf_reference_ceiling_used": false,
+     "vmaf": 100.0,
+     "vmaf_low": 100.0,
+     "vmaf_min": 100.0,
+     "psnr_y": 51.857596216666664,
+     "psnr_cb": 54.89583606666667,
+     "psnr_cr": 54.13857258,
+     "cambi_added_mean": 0.34882656333333334,
+     "cambi_added_high": 0.956269,
+     "cambi_output_mean": 0.76380869,
+     "cambi_output_high": 1.398579,
+     "cambi_source_mean": 0.42045419333333334,
+     "compared_format": "yuv422p10le",
+     "resolution": [
+      3840,
+      2160
+     ],
+     "note": "VMAF algısal model skorudur; piksel eşitliği garantisi değildir."
+    },
+    "final_quality": 12
+   }
+  ],
+  "rejected_encoders": [
+   {
+    "encoder": "hevc_nvenc",
+    "error": "0] [enc:hevc_nvenc @ 000001f36bffb7c0] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.\r\n[vf#0:0 @ 000001f36c057dc0] Error sending frames to consumers: Generic error in an external library\r\n[vf#0:0 @ 000001f36c057dc0] Task finished with error code: -542398533 (Generic error in an external library)\r\n[vf#0:0 @ 000001f36c057dc0] Terminating thread with return code -542398533 (Generic error in an external library)\r\n[vost#0:0/hevc_nvenc @ 000001f36c057700] [enc:hevc_nvenc @ 000001f36bffb7c0] Could not open encoder before EOF\r\n[vost#0:0/hevc_nvenc @ 000001f36c057700] Task finished with error code: -22 (Invalid argument)\r\n[vost#0:0/hevc_nvenc @ 000001f36c057700] Terminating thread with return code -22 (Invalid argument)\r\n[out#0/mov @ 000001f36bfc4580] Nothing was written into output file, because at least one of its streams received no packets.\r\n"
+   }
+  ],
+  "scene_analysis": [
+   {
+    "offset": 0.0,
+    "length": 2.0,
+    "spatial_detail": 8.10796875,
+    "motion": 16.098422619047618,
+    "reason": "ayrıntı/hareket"
+   },
+   {
+    "offset": 2.666667,
+    "length": 2.0,
+    "spatial_detail": 8.353046875,
+    "motion": 11.52202380952381,
+    "reason": "düz alan / bantlanma riski"
+   },
+   {
+    "offset": 8.0,
+    "length": 2.0,
+    "spatial_detail": 9.058880208333333,
+    "motion": 15.144553571428572,
+    "reason": "ayrıntı/hareket"
+   }
+  ],
+  "selected": {
+   "encoder": "libx265",
+   "quality": 12,
+   "output_pixel_format": "yuv422p10le"
+  },
+  "command": [
+   "<APP_ROOT>\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+   "-hide_banner",
+   "-v",
+   "error",
+   "-nostdin",
+   "-n",
+   "-threads",
+   "16",
+   "-progress",
+   "<TEST_WORKSPACE>\\real3\\.lrxe8-fp5uytlm\\encode.progress",
+   "-stats_period",
+   "1",
+   "-copyts",
+   "-noautorotate",
+   "-i",
+   "<MEDIA_ROOT>\\4K video\\Gold Low Poly Background 4K.mov",
+   "-map",
+   "0",
+   "-map_metadata",
+   "0",
+   "-map_chapters",
+   "0",
+   "-c",
+   "copy",
+   "-c:v:0",
+   "libx265",
+   "-fps_mode:v:0",
+   "passthrough",
+   "-enc_time_base:v:0",
+   "1:30",
+   "-pix_fmt",
+   "yuv422p10le",
+   "-preset",
+   "medium",
+   "-crf",
+   "12",
+   "-x265-params",
+   "pools=16:aq-mode=3:log-level=error",
+   "-color_range",
+   "pc",
+   "-colorspace",
+   "bt709",
+   "-color_trc",
+   "bt709",
+   "-color_primaries",
+   "bt709",
+   "-chroma_sample_location",
+   "center",
+   "-movflags",
+   "+faststart+use_metadata_tags",
+   "-tag:v:0",
+   "hvc1",
+   "<TEST_WORKSPACE>\\real3\\.lrxe8-fp5uytlm\\candidate-libx265-12.mov"
+  ],
+  "timeline": {
+   "frames": 300,
+   "max_timing_error_seconds": 0.0,
+   "source_duration": 10.0,
+   "output_duration": 10.0,
+   "common_shift_seconds": 0.0,
+   "display_intervals": "Every presentation timestamp compared; last-frame duration checked separately",
+   "source_fps": "30/1",
+   "output_fps": "30/1",
+   "source_time_base": "1/30",
+   "output_time_base": "1/15360"
+  },
+  "audio": [],
+  "copied_streams": [
+   {
+    "stream": 1,
+    "hash": "SHA256=df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+   }
+  ],
+  "quality": {
+   "frames_measured": 300,
+   "frames_scored": 300,
+   "vmaf_model": "vmaf_4k_v0.6.1",
+   "vmaf_reference_ceiling_used": false,
+   "vmaf": 100.0,
+   "vmaf_low": 100.0,
+   "vmaf_min": 100.0,
+   "psnr_y": 51.857596216666664,
+   "psnr_cb": 54.89583606666667,
+   "psnr_cr": 54.13857258,
+   "cambi_added_mean": 0.34882656333333334,
+   "cambi_added_high": 0.956269,
+   "cambi_output_mean": 0.76380869,
+   "cambi_output_high": 1.398579,
+   "cambi_source_mean": 0.42045419333333334,
+   "compared_format": "yuv422p10le",
+   "resolution": [
+    3840,
+    2160
+   ],
+   "note": "VMAF algısal model skorudur; piksel eşitliği garantisi değildir."
+  },
+  "output_sha256": "e65eb617f4b4e6a2279fc34b36bc696fc1557dec310d233460f1024e7ce196dd"
+ }
+}

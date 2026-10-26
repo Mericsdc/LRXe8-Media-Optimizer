@@ -1,0 +1,38 @@
+{
+  "source": "<TEST_WORKSPACE>\\work\\fixtures\\photo.jpg",
+  "status": "optimized",
+  "message": "Doğrulandı · %43.7 daha küçük",
+  "output": "<TEST_WORKSPACE>\\work\\fixtures\\out\\photo.optimized.jpg",
+  "source_bytes": 1616,
+  "output_bytes": 910,
+  "elapsed_seconds": 0.203,
+  "report": "<TEST_WORKSPACE>\\work\\fixtures\\out\\photo.12aed7a176.report.json",
+  "checks": {
+    "dimensions": true,
+    "pixels_exact": true,
+    "alpha_exact": true,
+    "metadata_exact": true,
+    "original_unchanged": true,
+    "smaller": true
+  },
+  "details": {
+    "source_sha256": "79b21a3c5cd77666d167df5900998b5f184dca7a8dab690f92108a38a38ad95f",
+    "options": {
+      "quality": "high",
+      "compatibility": "h264",
+      "software": true,
+      "max_parallel": 1,
+      "threads": 8,
+      "sample_seconds": 0.3,
+      "sample_timeout": 180
+    },
+    "format": "JPEG",
+    "dimensions": [
+      320,
+      180
+    ],
+    "frames": 1,
+    "policy": "exact decoded pixels + metadata; no resize",
+    "output_sha256": "98edfd93b5f511e6c99de23fa1e4c89ecdf6effb797118ab23ad2af55b5bc354"
+  }
+}

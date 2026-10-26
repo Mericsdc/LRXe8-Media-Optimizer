@@ -1,0 +1,44 @@
+{
+ "source": "<MEDIA_ROOT>\\Fütüristik Veri Merkezi ve Metalik Işık Dalgası.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %12.8 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\Fütüristik Veri Merkezi ve Metalik Işık Dalgası.optimized.png",
+ "source_bytes": 1679391,
+ "output_bytes": 1464523,
+ "elapsed_seconds": 22.109,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "433c0379652bdcf0b372b403357265a83d9ee71dd54a6629522da3780ef2303b",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "PNG",
+  "dimensions": [
+   2172,
+   724
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "same layout, recompressed IDAT",
+  "output_sha256": "4cdf4c305b78a56e4979c84a6d1fc8a6b5d0a77425d2537bcc608a1d2a6c9f45"
+ }
+}

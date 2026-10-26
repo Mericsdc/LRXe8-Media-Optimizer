@@ -1,0 +1,44 @@
+{
+ "source": "<PHOTO_ROOT>\\HR8Zn2paAAA8nEg.jpg",
+ "status": "optimized",
+ "message": "Doğrulandı · %3.3 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\HR8Zn2paAAA8nEg.optimized.jpg",
+ "source_bytes": 62507,
+ "output_bytes": 60461,
+ "elapsed_seconds": 0.454,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "1e8e72a82e8fd16b5087e20b496ca523c8b2ef384e7079d55f18f2aaabfad60d",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "JPEG",
+  "dimensions": [
+   736,
+   1044
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "jpegtran -copy all -optimize",
+  "output_sha256": "e99973de749d973646054176104b088e5c02d58893009819779492150b9de21c"
+ }
+}

@@ -1,0 +1,417 @@
+{
+ "tools": {
+  "ffmpeg": "<APP_ROOT>\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+  "ffprobe": "<APP_ROOT>\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffprobe.exe",
+  "jpegtran": "<APP_ROOT>\\tools\\jpeg\\bin\\jpegtran.exe",
+  "oxipng": "<APP_ROOT>\\tools\\oxipng\\oxipng-10.2.1-x86_64-pc-windows-msvc\\oxipng.exe",
+  "ssimulacra2": "<APP_ROOT>\\tools\\jxl\\ssimulacra2.exe"
+ },
+ "gpu_memory": [
+  12878610432,
+  9993977856
+ ],
+ "results": [
+  {
+   "source": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\alpha.png",
+   "status": "optimized",
+   "message": "Doğrulandı · %99.6 daha küçük",
+   "output": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\optimized\\alpha.optimized.png",
+   "source_bytes": 24708,
+   "output_bytes": 100,
+   "elapsed_seconds": 0.5,
+   "report": null,
+   "checks": {
+    "dimensions": true,
+    "pixels_exact": true,
+    "alpha_exact": true,
+    "metadata_exact": true,
+    "original_unchanged": true,
+    "smaller": true
+   },
+   "details": {
+    "source_sha256": "28f50847933d0b28e6f1c836affdb987a0ec17dc507acdf1e8e8fc756ed7a3bf",
+    "options": {
+     "quality": "high",
+     "compatibility": "auto",
+     "software": true,
+     "max_parallel": 1,
+     "threads": 0,
+     "sample_seconds": 2.0,
+     "sample_timeout": 600,
+     "photo_mode": "lossless",
+     "photo_target_kb": 256,
+     "photo_format": "auto",
+     "strip_metadata": false
+    },
+    "format": "PNG",
+    "dimensions": [
+     96,
+     64
+    ],
+    "frames": 1,
+    "policy": "exact decoded pixels + metadata; no resize",
+    "photo_mode": "lossless",
+    "method": "oxipng reductions + filters",
+    "output_sha256": "52852ec64011296976b184865288993811bac105611b9ca16b1ecf6ee1f6e601"
+   }
+  },
+  {
+   "source": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\photo.jpg",
+   "status": "optimized",
+   "message": "Doğrulandı · %55.4 daha küçük",
+   "output": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\optimized\\photo.optimized.jpg",
+   "source_bytes": 726,
+   "output_bytes": 324,
+   "elapsed_seconds": 0.328,
+   "report": null,
+   "checks": {
+    "dimensions": true,
+    "pixels_exact": true,
+    "alpha_exact": true,
+    "metadata_exact": true,
+    "original_unchanged": true,
+    "smaller": true
+   },
+   "details": {
+    "source_sha256": "24a3ae2460c4cc74b854648712f399c53971f9bcb72f0dfbe0dbc39949ed3488",
+    "options": {
+     "quality": "high",
+     "compatibility": "auto",
+     "software": true,
+     "max_parallel": 1,
+     "threads": 0,
+     "sample_seconds": 2.0,
+     "sample_timeout": 600,
+     "photo_mode": "lossless",
+     "photo_target_kb": 256,
+     "photo_format": "auto",
+     "strip_metadata": false
+    },
+    "format": "JPEG",
+    "dimensions": [
+     96,
+     64
+    ],
+    "frames": 1,
+    "policy": "exact decoded pixels + metadata; no resize",
+    "photo_mode": "lossless",
+    "method": "jpegtran -copy all -optimize",
+    "output_sha256": "a1e82619f4f5779d9aa4e635f6c07b875e62f80bd7a2f670a2e58045b3479ffb"
+   }
+  },
+  {
+   "source": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\photo.webp",
+   "status": "optimized",
+   "message": "Doğrulandı · %27.3 daha küçük",
+   "output": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\optimized\\photo.optimized.webp",
+   "source_bytes": 44,
+   "output_bytes": 32,
+   "elapsed_seconds": 0.047,
+   "report": null,
+   "checks": {
+    "dimensions": true,
+    "pixels_exact": true,
+    "alpha_exact": true,
+    "metadata_exact": true,
+    "original_unchanged": true,
+    "smaller": true
+   },
+   "details": {
+    "source_sha256": "10579f593a793d802cf53af6207b2f09e1908b844e5f167a9d8d938d6bb13df5",
+    "options": {
+     "quality": "high",
+     "compatibility": "auto",
+     "software": true,
+     "max_parallel": 1,
+     "threads": 0,
+     "sample_seconds": 2.0,
+     "sample_timeout": 600,
+     "photo_mode": "lossless",
+     "photo_target_kb": 256,
+     "photo_format": "auto",
+     "strip_metadata": false
+    },
+    "format": "WEBP",
+    "dimensions": [
+     96,
+     64
+    ],
+    "frames": 1,
+    "policy": "exact decoded pixels + metadata; no resize",
+    "photo_mode": "lossless",
+    "output_sha256": "439361d3b041bb0d5d95f77e134aa17bc8c753ae1f985fec5b74b3c0734cc4f4"
+   }
+  },
+  {
+   "source": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\photo.heic",
+   "status": "kept",
+   "message": "HEIF: güvenle kaldırılabilecek son dolgu alanı yok; orijinal korundu.",
+   "output": null,
+   "source_bytes": 666,
+   "output_bytes": 0,
+   "elapsed_seconds": 0.0,
+   "report": null,
+   "checks": {
+    "original_unchanged": true
+   },
+   "details": {
+    "source_sha256": "4cd53d29aa1ed3054f4ab3b405b6029af6e30f85ac22a68f0823741736a11349",
+    "options": {
+     "quality": "high",
+     "compatibility": "auto",
+     "software": true,
+     "max_parallel": 1,
+     "threads": 0,
+     "sample_seconds": 2.0,
+     "sample_timeout": 600,
+     "photo_mode": "lossless",
+     "photo_target_kb": 256,
+     "photo_format": "auto",
+     "strip_metadata": false
+    },
+    "format": "HEIF",
+    "dimensions": [
+     96,
+     64
+    ],
+    "frames": 1,
+    "policy": "exact decoded pixels + metadata; no resize",
+    "photo_mode": "lossless",
+    "reason": "HEIF: güvenle kaldırılabilecek son dolgu alanı yok; orijinal korundu."
+   }
+  },
+  {
+   "source": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\photo.avif",
+   "status": "kept",
+   "message": "AVIF: güvenle kaldırılabilecek son dolgu alanı yok; orijinal korundu.",
+   "output": null,
+   "source_bytes": 499,
+   "output_bytes": 0,
+   "elapsed_seconds": 0.0,
+   "report": null,
+   "checks": {
+    "original_unchanged": true
+   },
+   "details": {
+    "source_sha256": "9bbe1d37b8cbfc4ceb541e78f401b462ba1e14cb51575aec89ecd9f060d2accd",
+    "options": {
+     "quality": "high",
+     "compatibility": "auto",
+     "software": true,
+     "max_parallel": 1,
+     "threads": 0,
+     "sample_seconds": 2.0,
+     "sample_timeout": 600,
+     "photo_mode": "lossless",
+     "photo_target_kb": 256,
+     "photo_format": "auto",
+     "strip_metadata": false
+    },
+    "format": "AVIF",
+    "dimensions": [
+     96,
+     64
+    ],
+    "frames": 1,
+    "policy": "exact decoded pixels + metadata; no resize",
+    "photo_mode": "lossless",
+    "reason": "AVIF: güvenle kaldırılabilecek son dolgu alanı yok; orijinal korundu."
+   }
+  }
+ ],
+ "mozjpeg": true,
+ "small_photo": {
+  "source": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\small-source.png",
+  "status": "optimized",
+  "message": "Doğrulandı · %80.4 daha küçük · AVIF · SSIMULACRA2 95.4",
+  "output": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\small-output\\small-source.optimized.avif",
+  "source_bytes": 192317,
+  "output_bytes": 37760,
+  "elapsed_seconds": 2.375,
+  "report": null,
+  "checks": {
+   "dimensions": true,
+   "alpha_exact": true,
+   "metadata_exact": true,
+   "visually_lossless": true,
+   "original_unchanged": true,
+   "smaller": true
+  },
+  "details": {
+   "source_sha256": "8a9b3e77328caec8e2d85b9afd5dc2b50da72b3409958559c2850ceb7f283214",
+   "options": {
+    "quality": "high",
+    "compatibility": "auto",
+    "software": true,
+    "max_parallel": 1,
+    "threads": 0,
+    "sample_seconds": 2.0,
+    "sample_timeout": 600,
+    "photo_mode": "small",
+    "photo_target_kb": 256,
+    "photo_format": "avif",
+    "strip_metadata": false
+   },
+   "photo_mode": "small",
+   "lossless": false,
+   "target_bytes": 262144,
+   "policy": "Görsel kayıpsız: SSIMULACRA2 >= 90, aynı çözünürlük, birebir alpha ve metadata",
+   "format": "PNG",
+   "dimensions": [
+    320,
+    200
+   ],
+   "archived_metadata_chunks": [],
+   "attempts": [
+    {
+     "format": "AVIF",
+     "quality": 70,
+     "bytes": 1936,
+     "ssimulacra2": 91.391,
+     "quality_passed": true
+    },
+    {
+     "format": "AVIF",
+     "quality": 54,
+     "bytes": 1274,
+     "ssimulacra2": 83.696,
+     "quality_passed": false
+    },
+    {
+     "format": "AVIF",
+     "quality": 62,
+     "bytes": 1532,
+     "ssimulacra2": 86.773,
+     "quality_passed": false
+    },
+    {
+     "format": "AVIF",
+     "quality": 66,
+     "bytes": 1700,
+     "ssimulacra2": 87.55,
+     "quality_passed": false
+    },
+    {
+     "format": "AVIF",
+     "quality": 68,
+     "bytes": 1899,
+     "ssimulacra2": 90.755,
+     "quality_passed": true
+    },
+    {
+     "format": "AVIF",
+     "quality": 67,
+     "bytes": 1851,
+     "ssimulacra2": 88.792,
+     "quality_passed": false
+    },
+    {
+     "format": "AVIF",
+     "quality": 84,
+     "bytes": 2477,
+     "ssimulacra2": 92.935,
+     "quality_passed": true
+    },
+    {
+     "format": "AVIF",
+     "quality": 92,
+     "bytes": 3693,
+     "ssimulacra2": 94.055,
+     "quality_passed": true
+    },
+    {
+     "format": "AVIF",
+     "quality": 96,
+     "bytes": 6222,
+     "ssimulacra2": 94.272,
+     "quality_passed": true
+    },
+    {
+     "format": "AVIF",
+     "quality": 98,
+     "bytes": 7597,
+     "ssimulacra2": 94.944,
+     "quality_passed": true
+    },
+    {
+     "format": "AVIF",
+     "quality": 99,
+     "bytes": 10758,
+     "ssimulacra2": 94.983,
+     "quality_passed": true
+    },
+    {
+     "format": "AVIF",
+     "quality": 100,
+     "bytes": 37760,
+     "ssimulacra2": 95.399,
+     "quality_passed": true
+    }
+   ],
+   "minimum_ssimulacra2": 90.0,
+   "selected": {
+    "format": "AVIF",
+    "quality": 100,
+    "bytes": 37760,
+    "ssimulacra2": 95.399,
+    "quality_passed": true
+   },
+   "target_met": true,
+   "output_format": "AVIF",
+   "output_sha256": "c6b33a1ca13fccb7b635077dc431507047167f775442a803b9938995eea4d70b"
+  }
+ },
+ "video": {
+  "source": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\video.mp4",
+  "status": "optimized",
+  "message": "Doğrulandı · %77.4 daha küçük · av1_nvenc yuv420p10le · VMAF 98.5",
+  "output": "<TEST_WORKSPACE>\\frozen-selftest2\\self-test-ac328d08\\video-output\\video.optimized.mp4",
+  "source_bytes": 9060924,
+  "output_bytes": 2047415,
+  "elapsed_seconds": 17.297,
+  "report": null,
+  "checks": {
+   "dimensions": true,
+   "pixel_format": true,
+   "color_hdr": true,
+   "stream_metadata": true,
+   "chapters": true,
+   "frame_count_and_timing": true,
+   "audio_samples": true,
+   "copied_streams": true,
+   "perceptual_quality": true,
+   "no_added_banding": true,
+   "original_unchanged": true,
+   "smaller": true
+  },
+  "quality": {
+   "frames_measured": 60,
+   "frames_scored": 60,
+   "vmaf_model": "vmaf_v0.6.1",
+   "vmaf_reference_ceiling_used": true,
+   "vmaf": 98.46417651666667,
+   "vmaf_low": 97.88953199999999,
+   "vmaf_min": 97.772168,
+   "psnr_y": 50.2189951,
+   "psnr_cb": 47.62954286666666,
+   "psnr_cr": 48.08039015,
+   "cambi_added_mean": 0.005760433333333333,
+   "cambi_added_high": 0.018452,
+   "cambi_output_mean": 0.04686565,
+   "cambi_output_high": 0.070121,
+   "cambi_source_mean": 0.04654751666666667,
+   "compared_format": "yuv420p10le",
+   "resolution": [
+    1920,
+    1080
+   ],
+   "note": "VMAF algısal model skorudur; piksel eşitliği garantisi değildir."
+  },
+  "selected": {
+   "encoder": "av1_nvenc",
+   "quality": 32,
+   "output_pixel_format": "yuv420p10le"
+  }
+ },
+ "status": "passed"
+}

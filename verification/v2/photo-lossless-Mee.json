@@ -1,0 +1,44 @@
+{
+ "source": "<PHOTO_ROOT>\\Mee.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %8.4 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\Mee.optimized.png",
+ "source_bytes": 1620391,
+ "output_bytes": 1484641,
+ "elapsed_seconds": 25.109,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "4894c9e8b4542621a68f410ededc13803cb1d52f9115ceaff4265413f09c83d1",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "PNG",
+  "dimensions": [
+   1052,
+   1494
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "same layout, recompressed IDAT",
+  "output_sha256": "16f68e8cc2618089a6990c68d793fdda65915bfa6df1ff2e1232ca206a043597"
+ }
+}

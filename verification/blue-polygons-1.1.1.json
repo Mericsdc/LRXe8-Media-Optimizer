@@ -1,0 +1,598 @@
+{
+  "source": "<MEDIA_ROOT>\\4K video\\Blue Polygons Backdrop II  .mov",
+  "status": "optimized",
+  "message": "Doğrulandı · %84.2 daha küçük",
+  "output": "<MEDIA_ROOT>\\LRXe8 Kayıpsız VF\\Blue Polygons Backdrop II  .optimized.mov",
+  "source_bytes": 405108829,
+  "output_bytes": 64029684,
+  "elapsed_seconds": 88.406,
+  "report": null,
+  "checks": {
+    "dimensions": true,
+    "pixel_format": true,
+    "color_hdr": true,
+    "stream_metadata": true,
+    "chapters": true,
+    "frame_count_and_timing": true,
+    "audio_samples": true,
+    "copied_streams": true,
+    "perceptual_quality": true,
+    "original_unchanged": true,
+    "smaller": true
+  },
+  "details": {
+    "source_sha256": "4f80e294f960eb089f66c35ac2ae5f6691a66c37c3a9f09a08eb000ab930fe27",
+    "options": {
+      "quality": "high",
+      "compatibility": "auto",
+      "software": true,
+      "max_parallel": 1,
+      "threads": 8,
+      "sample_seconds": 1.0,
+      "sample_timeout": 180,
+      "photo_mode": "lossless",
+      "photo_target_kb": 256,
+      "photo_format": "auto"
+    },
+    "source": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "Main",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.4d4033",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "has_b_frames": 0,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 51,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "time_base": "1/25",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 600,
+          "duration": "24.000000",
+          "bit_rate": "135030667",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "600",
+          "extradata_size": 36,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "creation_time": "2016-05-04T11:08:48.000000Z",
+            "language": "eng",
+            "handler_name": "Apple Video Media Handler",
+            "vendor_id": "appl",
+            "encoder": "H.264",
+            "timecode": "00:00:00:00"
+          }
+        },
+        {
+          "index": 1,
+          "codec_type": "data",
+          "codec_tag_string": "tmcd",
+          "codec_tag": "0x64636d74",
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "25/1",
+          "time_base": "1/25",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 600,
+          "duration": "24.000000",
+          "bit_rate": "1",
+          "nb_frames": "1",
+          "extradata_size": 18,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "creation_time": "2016-05-04T11:11:42.000000Z",
+            "language": "eng",
+            "handler_name": "Time Code Media Handler",
+            "timecode": "00:00:00:00"
+          }
+        }
+      ],
+      "chapters": [],
+      "format": {
+        "filename": "<MEDIA_ROOT>\\4K video\\Blue Polygons Backdrop II  .mov",
+        "nb_streams": 2,
+        "nb_programs": 0,
+        "nb_stream_groups": 1,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "24.000000",
+        "size": "405108829",
+        "bit_rate": "135036276",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "qt  ",
+          "minor_version": "537199360",
+          "compatible_brands": "qt  ",
+          "creation_time": "2016-05-04T11:08:48.000000Z"
+        }
+      },
+      "video": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Main",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.4d4033",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 51,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/25",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 600,
+        "duration": "24.000000",
+        "bit_rate": "135030667",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "600",
+        "extradata_size": 36,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2016-05-04T11:08:48.000000Z",
+          "language": "eng",
+          "handler_name": "Apple Video Media Handler",
+          "vendor_id": "appl",
+          "encoder": "H.264",
+          "timecode": "00:00:00:00"
+        }
+      },
+      "duration": 24.0
+    },
+    "scene_analysis": [
+      {
+        "offset": 0,
+        "length": 1.0,
+        "spatial_detail": 9.383799208013045,
+        "motion": 18.92001388888889
+      },
+      {
+        "offset": 23.0,
+        "length": 1.0,
+        "spatial_detail": 8.864989517819707,
+        "motion": 17.384277777777775
+      },
+      {
+        "offset": 11.5,
+        "length": 1.0,
+        "spatial_detail": 8.493046820405311,
+        "motion": 17.546527777777776
+      }
+    ],
+    "tested": [
+      {
+        "encoder": "av1_nvenc",
+        "quality": 22,
+        "passed": false,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9890154800000001,
+            "ssim_p05": 0.9878,
+            "ssim_min": 0.987603,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.803442,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 95.08605,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "hevc_nvenc",
+        "quality": 15,
+        "passed": false,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9823368799999999,
+            "ssim_p05": 0.9795,
+            "ssim_min": 0.979452,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.614884,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 93.062414,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "h264_nvenc",
+        "quality": 15,
+        "passed": false,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9880854800000002,
+            "ssim_p05": 0.9859,
+            "ssim_min": 0.985973,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.811523,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 95.28808,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "libsvtav1",
+        "quality": 22,
+        "passed": false,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.98765764,
+            "ssim_p05": 0.9859,
+            "ssim_min": 0.98553,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.836831,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 95.920777,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "libx265",
+        "quality": 15,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9919127200000001,
+            "ssim_p05": 0.9906,
+            "ssim_min": 0.990398,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.860821,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.520525,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9918108,
+            "ssim_p05": 0.9905,
+            "ssim_min": 0.990185,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.861792,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.544809,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.99204004,
+            "ssim_p05": 0.9909,
+            "ssim_min": 0.990819,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.859907,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.497679,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "libx265",
+        "quality": 20,
+        "passed": false,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.98565552,
+            "ssim_p05": 0.9839,
+            "ssim_min": 0.98295,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.814086,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 95.35216,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "libx264",
+        "quality": 15,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9914053199999998,
+            "ssim_p05": 0.9905,
+            "ssim_min": 0.990415,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.844742,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.118538,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9912729199999998,
+            "ssim_p05": 0.9901,
+            "ssim_min": 0.989976,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.842553,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.063836,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9915849600000002,
+            "ssim_p05": 0.9906,
+            "ssim_min": 0.990573,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.843552,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.088797,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "libx264",
+        "quality": 20,
+        "passed": false,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9838936000000001,
+            "ssim_p05": 0.9822,
+            "ssim_min": 0.981295,
+            "frames_measured": 25,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.764225,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 94.105626,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      }
+    ],
+    "rejected_encoders": [],
+    "rate_context": {
+      "source_video_bitrate": 135030667.0,
+      "fps": 25.0,
+      "bits_per_pixel_per_frame": 2.604758236882716,
+      "hdr": false,
+      "source_codec": "h264",
+      "pixels": 2073600
+    },
+    "thresholds": {
+      "ssim_mean": 0.99,
+      "ssim_p05": 0.97,
+      "vmaf_mean": 95.0
+    },
+    "selected": {
+      "encoder": "libx265",
+      "quality": 15,
+      "estimated_video_bytes": 66830344.0,
+      "sample_encode_seconds": 4.234000000000378,
+      "sample_seconds": 3.0
+    },
+    "command": [
+      "<TEST_WORKSPACE>\\outputs\\LRXe8-Media-Optimizer\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+      "-hide_banner",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "8",
+      "-copyts",
+      "-noautorotate",
+      "-i",
+      "<MEDIA_ROOT>\\4K video\\Blue Polygons Backdrop II  .mov",
+      "-map",
+      "0",
+      "-map_metadata",
+      "0",
+      "-map_chapters",
+      "0",
+      "-c",
+      "copy",
+      "-c:v:0",
+      "libx265",
+      "-fps_mode:v:0",
+      "passthrough",
+      "-enc_time_base:v:0",
+      "1:25",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "8",
+      "-preset",
+      "medium",
+      "-crf",
+      "15",
+      "-x265-params",
+      "pools=8:frame-threads=2:log-level=error",
+      "-color_range",
+      "tv",
+      "-colorspace",
+      "bt709",
+      "-color_trc",
+      "bt709",
+      "-color_primaries",
+      "bt709",
+      "-chroma_sample_location",
+      "left",
+      "-movflags",
+      "+faststart+use_metadata_tags",
+      "-tag:v:0",
+      "hvc1",
+      "<MEDIA_ROOT>\\LRXe8 Kayıpsız VF\\.lrxe8-66hp4pwf\\candidate-0-0.mov"
+    ],
+    "timeline": {
+      "frames": 600,
+      "max_timing_error_seconds": 0.0,
+      "source_duration": 24.0,
+      "output_duration": 24.0,
+      "common_shift_seconds": 0.0,
+      "display_intervals": "Every presentation timestamp compared; last-frame duration checked separately",
+      "source_fps": "25/1",
+      "output_fps": "25/1",
+      "source_time_base": "1/25",
+      "output_time_base": "1/12800"
+    },
+    "audio": [],
+    "copied_streams": [
+      {
+        "stream": 1,
+        "hash": "SHA256=df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+      }
+    ],
+    "quality": {
+      "ssim_mean": 0.9919618283333337,
+      "ssim_p05": 0.9905,
+      "ssim_min": 0.99022,
+      "frames_measured": 600,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "vmaf": 99.994201,
+      "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+      "vmaf_min": 96.520525,
+      "vmaf_model": "vmaf_v0.6.1"
+    },
+    "final_attempt_errors": [],
+    "output_sha256": "4d9401011968bcaf21a004a67c1f8e804b50e44043a88379595cedf10b5cfcc0"
+  }
+}

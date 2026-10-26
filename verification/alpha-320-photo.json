@@ -1,0 +1,38 @@
+{
+  "source": "<TEST_WORKSPACE>\\work\\fixtures\\alpha-320.png",
+  "status": "optimized",
+  "message": "Doğrulandı · %99.6 daha küçük",
+  "output": "<TEST_WORKSPACE>\\work\\fixtures\\out\\alpha-320.optimized.png",
+  "source_bytes": 231147,
+  "output_bytes": 975,
+  "elapsed_seconds": 0.016,
+  "report": "<TEST_WORKSPACE>\\work\\fixtures\\out\\alpha-320.f1513c95c1.report.json",
+  "checks": {
+    "dimensions": true,
+    "pixels_exact": true,
+    "alpha_exact": true,
+    "metadata_exact": true,
+    "original_unchanged": true,
+    "smaller": true
+  },
+  "details": {
+    "source_sha256": "6456e1319cfe0286a3a13046c46a31b3ca0035c32265f046de91fe2e6a732ffb",
+    "options": {
+      "quality": "high",
+      "compatibility": "h264",
+      "software": true,
+      "max_parallel": 1,
+      "threads": 8,
+      "sample_seconds": 0.3,
+      "sample_timeout": 180
+    },
+    "format": "PNG",
+    "dimensions": [
+      320,
+      180
+    ],
+    "frames": 1,
+    "policy": "exact decoded pixels + metadata; no resize",
+    "output_sha256": "7a310f81cbd5f388347177567c3c6d394fd91d8c525b7fb92381c4bc362822dd"
+  }
+}

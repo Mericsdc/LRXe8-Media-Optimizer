@@ -1,0 +1,185 @@
+{
+ "source": "<TEST_WORKSPACE>\\png\\cam.jpg",
+ "status": "optimized",
+ "message": "Doğrulandı · %18.6 daha küçük · AVIF · SSIMULACRA2 90.0 · 256 KB hedefi görsel kalite için aşıldı",
+ "output": "<TEST_WORKSPACE>\\ph3\\cam.optimized.avif",
+ "source_bytes": 439610,
+ "output_bytes": 357670,
+ "elapsed_seconds": 20.5,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "visually_lossless": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "e308491bd3f2d8603864c18abae6639044627f8b62986d05cc0b9a1d5ef9abac",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "small",
+   "photo_target_kb": 256,
+   "photo_format": "auto"
+  },
+  "photo_mode": "small",
+  "lossless": false,
+  "target_bytes": 262144,
+  "policy": "Görsel kayıpsız: SSIMULACRA2 >= 90, aynı çözünürlük, birebir alpha ve metadata",
+  "format": "JPEG",
+  "dimensions": [
+   1069,
+   1472
+  ],
+  "archived_metadata_chunks": [
+   "LRXM"
+  ],
+  "archive_note": "Format-specific metadata preserved in-file; original signatures describe the source, not this edited image.",
+  "attempts": [
+   {
+    "format": "AVIF",
+    "quality": 70,
+    "bytes": 217651,
+    "ssimulacra2": 83.014,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 85,
+    "bytes": 306010,
+    "ssimulacra2": 88.059,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 93,
+    "bytes": 433683,
+    "ssimulacra2": 91.414,
+    "quality_passed": true
+   },
+   {
+    "format": "AVIF",
+    "quality": 89,
+    "bytes": 357670,
+    "ssimulacra2": 90.037,
+    "quality_passed": true
+   },
+   {
+    "format": "AVIF",
+    "quality": 87,
+    "bytes": 339460,
+    "ssimulacra2": 89.34,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 88,
+    "bytes": 357670,
+    "ssimulacra2": 90.037,
+    "quality_passed": true
+   },
+   {
+    "format": "JPEG",
+    "quality": 70,
+    "bytes": 273972,
+    "ssimulacra2": 77.397,
+    "quality_passed": false
+   },
+   {
+    "format": "JPEG",
+    "quality": 85,
+    "bytes": 411678,
+    "ssimulacra2": 84.829,
+    "quality_passed": false
+   },
+   {
+    "format": "JPEG",
+    "quality": 93,
+    "bytes": 548958,
+    "ssimulacra2": 93.068,
+    "quality_passed": true
+   },
+   {
+    "format": "JPEG",
+    "quality": 89,
+    "bytes": 466821,
+    "ssimulacra2": 89.593,
+    "quality_passed": false
+   },
+   {
+    "format": "JPEG",
+    "quality": 91,
+    "bytes": 506576,
+    "ssimulacra2": 92.197,
+    "quality_passed": true
+   },
+   {
+    "format": "JPEG",
+    "quality": 90,
+    "bytes": 489164,
+    "ssimulacra2": 91.117,
+    "quality_passed": true
+   },
+   {
+    "format": "WEBP",
+    "quality": 70,
+    "bytes": 143550,
+    "ssimulacra2": 66.946,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 85,
+    "bytes": 229112,
+    "ssimulacra2": 79.774,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 93,
+    "bytes": 359398,
+    "ssimulacra2": 86.481,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 97,
+    "bytes": 471290,
+    "ssimulacra2": 88.731,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 99,
+    "bytes": 570116,
+    "ssimulacra2": 89.557,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 100,
+    "bytes": 583996,
+    "ssimulacra2": 89.5,
+    "quality_passed": false
+   }
+  ],
+  "minimum_ssimulacra2": 90.0,
+  "selected": {
+   "format": "AVIF",
+   "quality": 88,
+   "bytes": 357670,
+   "ssimulacra2": 90.037,
+   "quality_passed": true
+  },
+  "target_met": false,
+  "output_format": "AVIF",
+  "output_sha256": "b0e284e886cf0a68174450386555491e88f24f7165cfb0e544bb9f94ede585df"
+ }
+}

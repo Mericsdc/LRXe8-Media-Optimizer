@@ -1,0 +1,940 @@
+{
+  "source": "<TEST_WORKSPACE>\\work\\av-sync\\fractional-two-audio-rotation.mp4",
+  "status": "optimized",
+  "message": "Doğrulandı · %76.5 daha küçük",
+  "output": "<TEST_WORKSPACE>\\work\\frozen-video\\fractional-two-audio-rotation.optimized.mp4",
+  "source_bytes": 4511922,
+  "output_bytes": 1061986,
+  "elapsed_seconds": 43.781,
+  "report": "<TEST_WORKSPACE>\\work\\frozen-video\\fractional-two-audio-rotation.e4ac10827a.report.json",
+  "checks": {
+    "dimensions": true,
+    "pixel_format": true,
+    "color_hdr": true,
+    "stream_metadata": true,
+    "chapters": true,
+    "frame_count_and_timing": true,
+    "audio_samples": true,
+    "copied_streams": true,
+    "perceptual_quality": true,
+    "original_unchanged": true,
+    "smaller": true
+  },
+  "details": {
+    "source_sha256": "546c53b95c40efd581ed77d7e1ffdb8756f54b0c0dd195d91586cd56655079ed",
+    "options": {
+      "quality": "high",
+      "compatibility": "auto",
+      "software": true,
+      "max_parallel": 1,
+      "threads": 8,
+      "sample_seconds": 1.0,
+      "sample_timeout": 180
+    },
+    "source": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High 4:4:4 Predictive",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.f40028",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "has_b_frames": 0,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "color_range": "tv",
+          "color_space": "bt709",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "time_base": "1/30000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 30030,
+          "duration": "1.001000",
+          "bit_rate": "35888719",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "30",
+          "extradata_size": 49,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.102 libx264"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 1,
+          "channel_layout": "mono",
+          "bits_per_sample": 0,
+          "initial_padding": 1024,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 44144,
+          "duration": "1.000998",
+          "bit_rate": "70422",
+          "nb_frames": "45",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "tur",
+            "handler_name": "SoundHandler"
+          }
+        },
+        {
+          "index": 2,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "44100",
+          "channels": 1,
+          "channel_layout": "mono",
+          "bits_per_sample": 0,
+          "initial_padding": 1024,
+          "id": "0x3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/44100",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 44144,
+          "duration": "1.000998",
+          "bit_rate": "67813",
+          "nb_frames": "45",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "eng",
+            "handler_name": "SoundHandler"
+          }
+        },
+        {
+          "index": 3,
+          "codec_name": "bin_data",
+          "codec_long_name": "binary data",
+          "codec_type": "data",
+          "codec_tag_string": "text",
+          "codec_tag": "0x74786574",
+          "id": "0x5",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/4410000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 4414410,
+          "duration": "1.001000",
+          "bit_rate": "199",
+          "nb_frames": "1",
+          "extradata_size": 63,
+          "disposition": {
+            "default": 0,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "eng",
+            "handler_name": "SubtitleHandler"
+          }
+        }
+      ],
+      "chapters": [
+        {
+          "id": 0,
+          "time_base": "1/4410000",
+          "start": 0,
+          "start_time": "0.000000",
+          "end": 4414410,
+          "end_time": "1.001000",
+          "tags": {
+            "title": "Chapter one"
+          }
+        }
+      ],
+      "format": {
+        "filename": "<TEST_WORKSPACE>\\work\\av-sync\\fractional-two-audio-rotation.mp4",
+        "nb_streams": 4,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "1.001000",
+        "size": "4511922",
+        "bit_rate": "36059316",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "title": "Multi audio test",
+          "encoder": "Lavf63.1.102"
+        }
+      },
+      "video": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High 4:4:4 Predictive",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.f40028",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30000/1001",
+        "avg_frame_rate": "30000/1001",
+        "time_base": "1/30000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 30030,
+        "duration": "1.001000",
+        "bit_rate": "35888719",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "30",
+        "extradata_size": 49,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      },
+      "duration": 1.001
+    },
+    "scene_analysis": [
+      {
+        "offset": 0,
+        "length": 1.0,
+        "spatial_detail": 5.333869089215001,
+        "motion": 2.0365555555555557
+      },
+      {
+        "offset": 0.0005,
+        "length": 1.0,
+        "spatial_detail": 5.333869089215001,
+        "motion": 2.0365555555555557
+      },
+      {
+        "offset": 0.001,
+        "length": 1.0,
+        "spatial_detail": 5.333869089215001,
+        "motion": 2.0365555555555557
+      }
+    ],
+    "tested": [
+      {
+        "encoder": "av1_nvenc",
+        "quality": 22,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9996548666666666,
+            "ssim_p05": 0.9996,
+            "ssim_min": 0.999616,
+            "frames_measured": 30,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.50451,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.749141,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9996762413793101,
+            "ssim_p05": 0.9996,
+            "ssim_min": 0.999638,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.521658,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.780995,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9996762413793101,
+            "ssim_p05": 0.9996,
+            "ssim_min": 0.999638,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.521658,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.780995,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "av1_nvenc",
+        "quality": 27,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9993112,
+            "ssim_p05": 0.9992,
+            "ssim_min": 0.999194,
+            "frames_measured": 30,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.028508,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.391211,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9993281034482757,
+            "ssim_p05": 0.9992,
+            "ssim_min": 0.999203,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.040872,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.475206,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9993281034482757,
+            "ssim_p05": 0.9992,
+            "ssim_min": 0.999203,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.040872,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.475206,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "av1_nvenc",
+        "quality": 32,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9985298999999999,
+            "ssim_p05": 0.9983,
+            "ssim_min": 0.998364,
+            "frames_measured": 30,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.14963,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 95.384316,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9985458965517243,
+            "ssim_p05": 0.9983,
+            "ssim_min": 0.99836,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.17771,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 95.617221,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9985458965517243,
+            "ssim_p05": 0.9983,
+            "ssim_min": 0.99836,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.17771,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 95.617221,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "hevc_nvenc",
+        "quality": 15,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9993954333333332,
+            "ssim_p05": 0.9991,
+            "ssim_min": 0.999155,
+            "frames_measured": 30,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.715976,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.508226,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9994120000000002,
+            "ssim_p05": 0.9991,
+            "ssim_min": 0.999155,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.695191,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.71775,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9994120000000002,
+            "ssim_p05": 0.9991,
+            "ssim_min": 0.999155,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.695191,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.71775,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "hevc_nvenc",
+        "quality": 20,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9993860999999998,
+            "ssim_p05": 0.9991,
+            "ssim_min": 0.999159,
+            "frames_measured": 30,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.683687,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.505106,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9993843103448277,
+            "ssim_p05": 0.9991,
+            "ssim_min": 0.99915,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.674136,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.674265,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9993843103448277,
+            "ssim_p05": 0.9991,
+            "ssim_min": 0.99915,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.674136,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.674265,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "hevc_nvenc",
+        "quality": 25,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9985320999999999,
+            "ssim_p05": 0.9979,
+            "ssim_min": 0.997911,
+            "frames_measured": 30,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 97.556353,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.011326,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9985593448275861,
+            "ssim_p05": 0.9979,
+            "ssim_min": 0.997874,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 97.679944,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.005591,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9985593448275861,
+            "ssim_p05": 0.9979,
+            "ssim_min": 0.997874,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 97.679944,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.005591,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "h264_nvenc",
+        "quality": 15,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9997589333333333,
+            "ssim_p05": 0.9997,
+            "ssim_min": 0.999717,
+            "frames_measured": 30,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.416209,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 97.011944,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9997812068965515,
+            "ssim_p05": 0.9997,
+            "ssim_min": 0.999727,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.467986,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 97.030045,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9997812068965515,
+            "ssim_p05": 0.9997,
+            "ssim_min": 0.999727,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.467986,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 97.030045,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "h264_nvenc",
+        "quality": 20,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9995225666666668,
+            "ssim_p05": 0.9994,
+            "ssim_min": 0.99941,
+            "frames_measured": 30,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.987719,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.753982,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9995536551724138,
+            "ssim_p05": 0.9994,
+            "ssim_min": 0.999416,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.034113,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.807317,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.9995536551724138,
+            "ssim_p05": 0.9994,
+            "ssim_min": 0.999416,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 99.034113,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.807317,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      },
+      {
+        "encoder": "h264_nvenc",
+        "quality": 25,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9987028000000001,
+            "ssim_p05": 0.9983,
+            "ssim_min": 0.998299,
+            "frames_measured": 30,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 97.959096,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.141327,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.998707310344828,
+            "ssim_p05": 0.9983,
+            "ssim_min": 0.998284,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.027163,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.030698,
+            "vmaf_model": "vmaf_v0.6.1"
+          },
+          {
+            "ssim_mean": 0.998707310344828,
+            "ssim_p05": 0.9983,
+            "ssim_min": 0.998284,
+            "frames_measured": 29,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": 98.027163,
+            "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+            "vmaf_min": 96.030698,
+            "vmaf_model": "vmaf_v0.6.1"
+          }
+        ]
+      }
+    ],
+    "rejected_encoders": [],
+    "rate_context": {
+      "source_video_bitrate": 35888719.0,
+      "fps": 29.97002997002997,
+      "bits_per_pixel_per_frame": 0.5774917650302211,
+      "hdr": false,
+      "source_codec": "h264",
+      "pixels": 2073600
+    },
+    "thresholds": {
+      "ssim_mean": 0.99,
+      "ssim_p05": 0.97,
+      "vmaf_mean": 95.0
+    },
+    "selected": {
+      "encoder": "av1_nvenc",
+      "quality": 32,
+      "estimated_video_bytes": 1016650.3013333331,
+      "sample_encode_seconds": 1.8909999999999627,
+      "sample_seconds": 3.0
+    },
+    "command": [
+      "<TEST_WORKSPACE>\\outputs\\LRXe8-Media-Optimizer\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+      "-hide_banner",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "8",
+      "-copyts",
+      "-noautorotate",
+      "-i",
+      "<TEST_WORKSPACE>\\work\\av-sync\\fractional-two-audio-rotation.mp4",
+      "-map",
+      "0",
+      "-map_metadata",
+      "0",
+      "-map_chapters",
+      "0",
+      "-c",
+      "copy",
+      "-c:v:0",
+      "av1_nvenc",
+      "-fps_mode:v:0",
+      "passthrough",
+      "-enc_time_base:v:0",
+      "1:30000",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "8",
+      "-preset",
+      "p6",
+      "-tune",
+      "hq",
+      "-rc",
+      "vbr",
+      "-cq",
+      "32",
+      "-b:v",
+      "0",
+      "-rc-lookahead",
+      "16",
+      "-spatial-aq",
+      "1",
+      "-color_range",
+      "tv",
+      "-colorspace",
+      "bt709",
+      "-chroma_sample_location",
+      "left",
+      "-bsf:v:0",
+      "av1_metadata=chroma_sample_position=vertical",
+      "-movflags",
+      "+faststart+use_metadata_tags",
+      "<TEST_WORKSPACE>\\work\\frozen-video\\.lrxe8-vdpmwzvc\\candidate-0-0.mp4"
+    ],
+    "timeline": {
+      "frames": 30,
+      "max_timing_error_seconds": 0.0,
+      "source_duration": 1.001,
+      "output_duration": 1.001,
+      "common_shift_seconds": 0.0,
+      "display_intervals": "Every presentation timestamp compared; last-frame duration checked separately",
+      "source_fps": "30000/1001",
+      "output_fps": "30000/1001",
+      "source_time_base": "1/30000",
+      "output_time_base": "1/30000"
+    },
+    "audio": [
+      {
+        "stream": 1,
+        "pcm_sha256": "SHA256=98d01acd388645cdd983b41bd1fc986113b40d3a885ad3920c67cc4c5db294ee"
+      },
+      {
+        "stream": 2,
+        "pcm_sha256": "SHA256=2bf70710abbadd30a9675b978366d8f6c7687705c6df35d64cd557ebdf7e6b9c"
+      }
+    ],
+    "copied_streams": [
+      {
+        "stream": 1,
+        "hash": "SHA256=caf2491147e3df53282106358666087833fa6a4c9ed10ff9923740c2124eee27"
+      },
+      {
+        "stream": 2,
+        "hash": "SHA256=884c103a03626522681671127761db0cc133208b7b121ef68d0b8e7c12468a46"
+      },
+      {
+        "stream": 3,
+        "hash": "SHA256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "quality": {
+      "ssim_mean": 0.9985298999999999,
+      "ssim_p05": 0.9983,
+      "ssim_min": 0.998364,
+      "frames_measured": 30,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "vmaf": 98.14963,
+      "vmaf_note": "Algısal model skoru; piksel eşitliği garantisi değildir.",
+      "vmaf_min": 95.384316,
+      "vmaf_model": "vmaf_v0.6.1"
+    },
+    "final_attempt_errors": [],
+    "output_sha256": "2a7b4395f42238239d8814332869e5ed4db74298f1bf3495265562c7400c7ec0"
+  }
+}

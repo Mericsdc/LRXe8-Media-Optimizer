@@ -1,0 +1,133 @@
+{
+ "source": "<PHOTO_ROOT>\\WhatsApp Image 2026-10-05 at 21.18.28.jpeg",
+ "status": "kept",
+ "message": "Görsel kayıpsız kalite (SSIMULACRA2 ≥ 90) bu biçimlerde sağlanamadı; orijinal korundu.",
+ "output": null,
+ "source_bytes": 254833,
+ "output_bytes": 0,
+ "elapsed_seconds": 14.704,
+ "report": null,
+ "checks": {
+  "original_unchanged": true
+ },
+ "details": {
+  "source_sha256": "4012ce1011a5a96db792265bf2c6721f5d7f20768aae4473d0c09457d9c2ecd6",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "small",
+   "photo_target_kb": 256,
+   "photo_format": "auto"
+  },
+  "photo_mode": "small",
+  "lossless": false,
+  "target_bytes": 262144,
+  "policy": "Görsel kayıpsız: SSIMULACRA2 >= 90, aynı çözünürlük, birebir alpha ve metadata",
+  "format": "JPEG",
+  "dimensions": [
+   1600,
+   1200
+  ],
+  "archived_metadata_chunks": [
+   "LRXM"
+  ],
+  "archive_note": "Format-specific metadata preserved in-file; original signatures describe the source, not this edited image.",
+  "attempts": [
+   {
+    "format": "AVIF",
+    "quality": 70,
+    "bytes": 188655,
+    "ssimulacra2": 80.871,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 85,
+    "bytes": 248177,
+    "ssimulacra2": 85.315,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 93,
+    "bytes": 308819,
+    "ssimulacra2": 87.49,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 97,
+    "bytes": 383363,
+    "ssimulacra2": 87.892,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 99,
+    "bytes": 542416,
+    "ssimulacra2": 88.444,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 100,
+    "bytes": 909744,
+    "ssimulacra2": 88.949,
+    "quality_passed": false
+   },
+   {
+    "format": "JPEG",
+    "error": "JPEG metadata segmentleri korunmadı"
+   },
+   {
+    "format": "WEBP",
+    "quality": 70,
+    "bytes": 128170,
+    "ssimulacra2": 70.394,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 85,
+    "bytes": 194744,
+    "ssimulacra2": 77.798,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 93,
+    "bytes": 305574,
+    "ssimulacra2": 84.625,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 97,
+    "bytes": 394772,
+    "ssimulacra2": 85.561,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 99,
+    "bytes": 451856,
+    "ssimulacra2": 87.405,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 100,
+    "bytes": 461100,
+    "ssimulacra2": 87.433,
+    "quality_passed": false
+   }
+  ],
+  "minimum_ssimulacra2": 90.0,
+  "reason": "Görsel kayıpsız kalite (SSIMULACRA2 ≥ 90) bu biçimlerde sağlanamadı; orijinal korundu."
+ }
+}

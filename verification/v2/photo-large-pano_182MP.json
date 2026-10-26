@@ -1,0 +1,44 @@
+{
+ "source": "<TEST_WORKSPACE>\\big\\pano_182MP.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %15.8 daha küçük",
+ "output": "<TEST_WORKSPACE>\\bigout\\pano_182MP.optimized.png",
+ "source_bytes": 275466822,
+ "output_bytes": 232070407,
+ "elapsed_seconds": 339.89,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "002c108dfc43137c3562c24ad8cd7c71abca9aac5ab195da8c15c31fe46e6fa4",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 1,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "PNG",
+  "dimensions": [
+   14000,
+   13000
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "same layout, recompressed IDAT",
+  "output_sha256": "93379772e3dd5b52750e356bc8f348804cc20ce22ec0de3648e195c1d9b78b6a"
+ }
+}

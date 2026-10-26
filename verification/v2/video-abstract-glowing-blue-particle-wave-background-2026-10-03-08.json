@@ -1,0 +1,624 @@
+{
+ "source": "<MEDIA_ROOT>\\4K video\\abstract-glowing-blue-particle-wave-background-2026-10-03-08-36-37-utc.mp4",
+ "status": "optimized",
+ "message": "Doğrulandı · %5.7 daha küçük · av1_nvenc yuv420p10le · VMAF 98.4",
+ "output": "<TEST_WORKSPACE>\\real3\\abstract-glowing-blue-particle-wave-background-2026-10-03-08-36-37-utc.optimized.mp4",
+ "source_bytes": 108721329,
+ "output_bytes": 102549187,
+ "elapsed_seconds": 274.641,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixel_format": true,
+  "color_hdr": true,
+  "stream_metadata": true,
+  "chapters": true,
+  "frame_count_and_timing": true,
+  "audio_samples": true,
+  "copied_streams": true,
+  "perceptual_quality": true,
+  "no_added_banding": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "36ba5c4aceadf899a4540f32dc93b11de4d12342b6cd54d453830a14fb0d9cd6",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "source": {
+   "streams": [
+    {
+     "index": 0,
+     "codec_name": "h264",
+     "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+     "profile": "High",
+     "codec_type": "video",
+     "codec_tag_string": "avc1",
+     "codec_tag": "0x31637661",
+     "mime_codec_string": "avc1.640034",
+     "width": 3840,
+     "height": 2160,
+     "coded_width": 3840,
+     "coded_height": 2160,
+     "has_b_frames": 0,
+     "sample_aspect_ratio": "1:1",
+     "display_aspect_ratio": "16:9",
+     "pix_fmt": "yuv420p",
+     "level": 52,
+     "chroma_location": "left",
+     "field_order": "progressive",
+     "is_avc": "true",
+     "nal_length_size": "4",
+     "id": "0x1",
+     "r_frame_rate": "60/1",
+     "avg_frame_rate": "60/1",
+     "time_base": "1/60000",
+     "start_pts": 0,
+     "start_time": "0.000000",
+     "duration_ts": 600000,
+     "duration": "10.000000",
+     "bit_rate": "86620967",
+     "bits_per_raw_sample": "8",
+     "nb_frames": "600",
+     "extradata_size": 41,
+     "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+     },
+     "tags": {
+      "creation_time": "2023-12-01T00:02:00.000000Z",
+      "language": "eng",
+      "handler_name": "\u001fMainconcept Video Media Handler",
+      "encoder": "AVC Coding"
+     }
+    },
+    {
+     "index": 1,
+     "codec_name": "aac",
+     "codec_long_name": "AAC (Advanced Audio Coding)",
+     "profile": "LC",
+     "codec_type": "audio",
+     "codec_tag_string": "mp4a",
+     "codec_tag": "0x6134706d",
+     "mime_codec_string": "mp4a.40.2",
+     "sample_fmt": "fltp",
+     "sample_rate": "48000",
+     "channels": 2,
+     "channel_layout": "stereo",
+     "bits_per_sample": 0,
+     "initial_padding": 0,
+     "id": "0x2",
+     "r_frame_rate": "0/0",
+     "avg_frame_rate": "0/0",
+     "time_base": "1/48000",
+     "start_pts": 0,
+     "start_time": "0.000000",
+     "duration_ts": 480000,
+     "duration": "10.000000",
+     "bit_rate": "316832",
+     "nb_frames": "470",
+     "extradata_size": 2,
+     "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+     },
+     "tags": {
+      "creation_time": "2023-12-01T00:02:00.000000Z",
+      "language": "eng",
+      "handler_name": "#Mainconcept MP4 Sound Media Handler"
+     }
+    }
+   ],
+   "chapters": [],
+   "format": {
+    "filename": "<MEDIA_ROOT>\\4K video\\abstract-glowing-blue-particle-wave-background-2026-10-03-08-36-37-utc.mp4",
+    "nb_streams": 2,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "10.000000",
+    "size": "108721329",
+    "bit_rate": "86977063",
+    "probe_score": 100,
+    "tags": {
+     "major_brand": "mp42",
+     "minor_version": "0",
+     "compatible_brands": "mp42mp41",
+     "creation_time": "2023-12-01T00:02:00.000000Z"
+    }
+   },
+   "video": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "mime_codec_string": "avc1.640034",
+    "width": 3840,
+    "height": 2160,
+    "coded_width": 3840,
+    "coded_height": 2160,
+    "has_b_frames": 0,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "pix_fmt": "yuv420p",
+    "level": 52,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "60/1",
+    "avg_frame_rate": "60/1",
+    "time_base": "1/60000",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 600000,
+    "duration": "10.000000",
+    "bit_rate": "86620967",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "600",
+    "extradata_size": 41,
+    "disposition": {
+     "default": 1,
+     "dub": 0,
+     "original": 0,
+     "comment": 0,
+     "lyrics": 0,
+     "karaoke": 0,
+     "forced": 0,
+     "hearing_impaired": 0,
+     "visual_impaired": 0,
+     "clean_effects": 0,
+     "attached_pic": 0,
+     "timed_thumbnails": 0,
+     "non_diegetic": 0,
+     "captions": 0,
+     "descriptions": 0,
+     "metadata": 0,
+     "dependent": 0,
+     "still_image": 0,
+     "multilayer": 0
+    },
+    "tags": {
+     "creation_time": "2023-12-01T00:02:00.000000Z",
+     "language": "eng",
+     "handler_name": "\u001fMainconcept Video Media Handler",
+     "encoder": "AVC Coding"
+    }
+   },
+   "duration": 10.0
+  },
+  "thresholds": {
+   "vmaf_mean": 98.0,
+   "vmaf_low": 96.0,
+   "cambi_mean": 0.5,
+   "cambi_high": 1.0,
+   "cambi_floor": 1.0,
+   "chroma_psnr": 40.0
+  },
+  "attempts": [
+   {
+    "encoder": "av1_nvenc",
+    "search": [
+     {
+      "quality": 20,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 13989995.666666666,
+      "sample_metrics": [
+       {
+        "vmaf": 99.7216,
+        "vmaf_low": 99.5448,
+        "psnr_cb": 54.0581,
+        "psnr_cr": 56.2003,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.1411,
+        "vmaf_low": 98.6925,
+        "psnr_cb": 52.8514,
+        "psnr_cr": 54.8858,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.7199,
+        "vmaf_low": 99.573,
+        "psnr_cb": 54.0233,
+        "psnr_cr": 56.217,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 23,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 10217064.666666666,
+      "sample_metrics": [
+       {
+        "vmaf": 99.2398,
+        "vmaf_low": 98.9236,
+        "psnr_cb": 52.97,
+        "psnr_cr": 55.2868,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 98.4772,
+        "vmaf_low": 97.8081,
+        "psnr_cb": 51.7024,
+        "psnr_cr": 53.9467,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.1943,
+        "vmaf_low": 98.8632,
+        "psnr_cb": 52.8878,
+        "psnr_cr": 55.2675,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 24,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 98.20 < 98.0"
+      ],
+      "bytes_per_second": 9459220.0,
+      "sample_metrics": [
+       {
+        "vmaf": 98.9919,
+        "vmaf_low": 98.7148,
+        "psnr_cb": 52.4964,
+        "psnr_cr": 54.8663,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 98.2043,
+        "vmaf_low": 97.4663,
+        "psnr_cb": 51.3188,
+        "psnr_cr": 53.6313,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 26,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 97.57 < 98.0"
+      ],
+      "bytes_per_second": 7729037.25,
+      "sample_metrics": [
+       {
+        "vmaf": 98.6047,
+        "vmaf_low": 98.1835,
+        "psnr_cb": 51.862,
+        "psnr_cr": 54.3427,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 97.5659,
+        "vmaf_low": 96.7019,
+        "psnr_cb": 50.4988,
+        "psnr_cr": 52.9432,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     }
+    ],
+    "chosen_quality": 23,
+    "estimated_video_bytes": 102170647,
+    "final_attempts": [],
+    "command": [
+     "<APP_ROOT>\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+     "-hide_banner",
+     "-v",
+     "error",
+     "-nostdin",
+     "-n",
+     "-threads",
+     "16",
+     "-progress",
+     "<TEST_WORKSPACE>\\real3\\.lrxe8-ku3168kv\\encode.progress",
+     "-stats_period",
+     "1",
+     "-copyts",
+     "-noautorotate",
+     "-i",
+     "<MEDIA_ROOT>\\4K video\\abstract-glowing-blue-particle-wave-background-2026-10-03-08-36-37-utc.mp4",
+     "-map",
+     "0",
+     "-map_metadata",
+     "0",
+     "-map_chapters",
+     "0",
+     "-c",
+     "copy",
+     "-c:v:0",
+     "av1_nvenc",
+     "-fps_mode:v:0",
+     "passthrough",
+     "-enc_time_base:v:0",
+     "1:60000",
+     "-pix_fmt",
+     "p010le",
+     "-preset",
+     "p6",
+     "-tune",
+     "hq",
+     "-rc",
+     "vbr",
+     "-cq",
+     "23",
+     "-b:v",
+     "0",
+     "-maxrate",
+     "129931450",
+     "-bufsize",
+     "259862900",
+     "-rc-lookahead",
+     "16",
+     "-spatial-aq",
+     "1",
+     "-tier",
+     "1",
+     "-chroma_sample_location",
+     "left",
+     "-bsf:v:0",
+     "av1_metadata=chroma_sample_position=vertical",
+     "-movflags",
+     "+faststart+use_metadata_tags",
+     "<TEST_WORKSPACE>\\real3\\.lrxe8-ku3168kv\\candidate-av1_nvenc-23.mp4"
+    ],
+    "timeline": {
+     "frames": 600,
+     "max_timing_error_seconds": 0.0,
+     "source_duration": 10.0,
+     "output_duration": 10.0,
+     "common_shift_seconds": 0.0,
+     "display_intervals": "Every presentation timestamp compared; last-frame duration checked separately",
+     "source_fps": "60/1",
+     "output_fps": "60/1",
+     "source_time_base": "1/60000",
+     "output_time_base": "1/60000"
+    },
+    "output_pixel_format": "yuv420p10le",
+    "audio": [
+     {
+      "stream": 1,
+      "pcm_sha256": "SHA256=81beb57ba94e8afbf61c796a8a2438ff11c5e05c6fc156e7425b391c81369516"
+     }
+    ],
+    "copied_streams": [
+     {
+      "stream": 1,
+      "hash": "SHA256=0570e7676d302e1f429e830fc7fe7d6715f8ba6cbe92470596f2568c3d07edb5"
+     }
+    ],
+    "quality": {
+     "frames_measured": 600,
+     "frames_scored": 600,
+     "vmaf_model": "vmaf_4k_v0.6.1",
+     "vmaf_reference_ceiling_used": false,
+     "vmaf": 98.44241399666667,
+     "vmaf_low": 96.646635,
+     "vmaf_min": 96.483407,
+     "psnr_y": 54.471098515,
+     "psnr_cb": 51.916987455,
+     "psnr_cr": 54.492546540000006,
+     "cambi_added_mean": 0.0,
+     "cambi_added_high": 0.0,
+     "cambi_output_mean": 3.527570875,
+     "cambi_output_high": 4.180428,
+     "cambi_source_mean": 14.444056541666665,
+     "compared_format": "yuv420p10le",
+     "resolution": [
+      3840,
+      2160
+     ],
+     "note": "VMAF algısal model skorudur; piksel eşitliği garantisi değildir."
+    },
+    "final_quality": 23
+   }
+  ],
+  "rejected_encoders": [],
+  "scene_analysis": [
+   {
+    "offset": 0.0,
+    "length": 2.0,
+    "spatial_detail": 1.7270572916666667,
+    "motion": 1.5841964285714287,
+    "reason": "düz alan / bantlanma riski"
+   },
+   {
+    "offset": 5.333333,
+    "length": 2.0,
+    "spatial_detail": 1.7926302083333334,
+    "motion": 1.6974404761904762,
+    "reason": "ayrıntı/hareket"
+   },
+   {
+    "offset": 8.0,
+    "length": 2.0,
+    "spatial_detail": 1.7177083333333334,
+    "motion": 1.6745833333333333,
+    "reason": "ayrıntı/hareket"
+   }
+  ],
+  "selected": {
+   "encoder": "av1_nvenc",
+   "quality": 23,
+   "output_pixel_format": "yuv420p10le"
+  },
+  "command": [
+   "<APP_ROOT>\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+   "-hide_banner",
+   "-v",
+   "error",
+   "-nostdin",
+   "-n",
+   "-threads",
+   "16",
+   "-progress",
+   "<TEST_WORKSPACE>\\real3\\.lrxe8-ku3168kv\\encode.progress",
+   "-stats_period",
+   "1",
+   "-copyts",
+   "-noautorotate",
+   "-i",
+   "<MEDIA_ROOT>\\4K video\\abstract-glowing-blue-particle-wave-background-2026-10-03-08-36-37-utc.mp4",
+   "-map",
+   "0",
+   "-map_metadata",
+   "0",
+   "-map_chapters",
+   "0",
+   "-c",
+   "copy",
+   "-c:v:0",
+   "av1_nvenc",
+   "-fps_mode:v:0",
+   "passthrough",
+   "-enc_time_base:v:0",
+   "1:60000",
+   "-pix_fmt",
+   "p010le",
+   "-preset",
+   "p6",
+   "-tune",
+   "hq",
+   "-rc",
+   "vbr",
+   "-cq",
+   "23",
+   "-b:v",
+   "0",
+   "-maxrate",
+   "129931450",
+   "-bufsize",
+   "259862900",
+   "-rc-lookahead",
+   "16",
+   "-spatial-aq",
+   "1",
+   "-tier",
+   "1",
+   "-chroma_sample_location",
+   "left",
+   "-bsf:v:0",
+   "av1_metadata=chroma_sample_position=vertical",
+   "-movflags",
+   "+faststart+use_metadata_tags",
+   "<TEST_WORKSPACE>\\real3\\.lrxe8-ku3168kv\\candidate-av1_nvenc-23.mp4"
+  ],
+  "timeline": {
+   "frames": 600,
+   "max_timing_error_seconds": 0.0,
+   "source_duration": 10.0,
+   "output_duration": 10.0,
+   "common_shift_seconds": 0.0,
+   "display_intervals": "Every presentation timestamp compared; last-frame duration checked separately",
+   "source_fps": "60/1",
+   "output_fps": "60/1",
+   "source_time_base": "1/60000",
+   "output_time_base": "1/60000"
+  },
+  "audio": [
+   {
+    "stream": 1,
+    "pcm_sha256": "SHA256=81beb57ba94e8afbf61c796a8a2438ff11c5e05c6fc156e7425b391c81369516"
+   }
+  ],
+  "copied_streams": [
+   {
+    "stream": 1,
+    "hash": "SHA256=0570e7676d302e1f429e830fc7fe7d6715f8ba6cbe92470596f2568c3d07edb5"
+   }
+  ],
+  "quality": {
+   "frames_measured": 600,
+   "frames_scored": 600,
+   "vmaf_model": "vmaf_4k_v0.6.1",
+   "vmaf_reference_ceiling_used": false,
+   "vmaf": 98.44241399666667,
+   "vmaf_low": 96.646635,
+   "vmaf_min": 96.483407,
+   "psnr_y": 54.471098515,
+   "psnr_cb": 51.916987455,
+   "psnr_cr": 54.492546540000006,
+   "cambi_added_mean": 0.0,
+   "cambi_added_high": 0.0,
+   "cambi_output_mean": 3.527570875,
+   "cambi_output_high": 4.180428,
+   "cambi_source_mean": 14.444056541666665,
+   "compared_format": "yuv420p10le",
+   "resolution": [
+    3840,
+    2160
+   ],
+   "note": "VMAF algısal model skorudur; piksel eşitliği garantisi değildir."
+  },
+  "output_sha256": "47da57ac2a73ec45b524b4fc6f4d820f337e573f325a52da3cf28e04c90baba4"
+ }
+}

@@ -1,0 +1,7 @@
+PySide6-Essentials==6.8.3
+Pillow==13.0.0
+pillow-heif==1.8.1
+psutil==7.2.2
+mozjpeg-lossless-optimization==1.3.2
+pyinstaller==6.22.3
+# realesrgan-ncnn-py==2.0.0 is installed by build_macos.sh with --no-deps (no OpenCV/NumPy needed).

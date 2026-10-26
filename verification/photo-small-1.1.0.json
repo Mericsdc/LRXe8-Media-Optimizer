@@ -1,0 +1,106 @@
+{
+  "source": "<SOURCE_PHOTO>",
+  "status": "optimized",
+  "message": "Doğrulandı · %88.0 daha küçük · Fotoğraf: AVIF · 256 KB hedefi kalite sınırında aşıldı",
+  "output": "<TEST_WORKSPACE>\\work\\photo-update\\small\\ChatGPT Görseli 7 Eki 2026 00_26_30.optimized.avif",
+  "source_bytes": 2276518,
+  "output_bytes": 273857,
+  "elapsed_seconds": 3.469,
+  "report": null,
+  "checks": {
+    "dimensions": true,
+    "alpha_exact": true,
+    "metadata_exact": true,
+    "perceptual_quality": true,
+    "original_unchanged": true,
+    "smaller": true
+  },
+  "details": {
+    "source_sha256": "39434c64f0dc9053dbd637ce1b7c3c46bf501f08eda1551ab32efe6b3cebdff6",
+    "options": {
+      "quality": "high",
+      "compatibility": "auto",
+      "software": true,
+      "max_parallel": 1,
+      "threads": 8,
+      "sample_seconds": 1.0,
+      "sample_timeout": 180,
+      "photo_mode": "small",
+      "photo_target_kb": 256,
+      "photo_format": "auto"
+    },
+    "photo_mode": "small",
+    "lossless": false,
+    "target_bytes": 262144,
+    "policy": "Opt-in small photo; native dimensions, exact alpha and metadata; RGB SSIM >=0.970",
+    "format": "PNG",
+    "dimensions": [
+      1069,
+      1472
+    ],
+    "output_format": "AVIF",
+    "archived_metadata_chunks": [
+      "LRXM"
+    ],
+    "archive_note": "Format-specific metadata preserved in-file; original signatures describe the source, not this edited image.",
+    "attempts": [
+      {
+        "quality": 50,
+        "bytes": 121635,
+        "rgb_ssim": 0.93686,
+        "quality_passed": false
+      },
+      {
+        "quality": 73,
+        "bytes": 221416,
+        "rgb_ssim": 0.964083,
+        "quality_passed": false
+      },
+      {
+        "quality": 84,
+        "bytes": 294821,
+        "rgb_ssim": 0.972188,
+        "quality_passed": true
+      },
+      {
+        "quality": 78,
+        "bytes": 247638,
+        "rgb_ssim": 0.967146,
+        "quality_passed": false
+      },
+      {
+        "quality": 81,
+        "bytes": 264679,
+        "rgb_ssim": 0.969072,
+        "quality_passed": false
+      },
+      {
+        "quality": 79,
+        "bytes": 256274,
+        "rgb_ssim": 0.968076,
+        "quality_passed": false
+      },
+      {
+        "quality": 80,
+        "bytes": 264679,
+        "rgb_ssim": 0.969072,
+        "quality_passed": false
+      },
+      {
+        "quality": 82,
+        "bytes": 273857,
+        "rgb_ssim": 0.970224,
+        "quality_passed": true
+      }
+    ],
+    "minimum_rgb_ssim": 0.97,
+    "selected": {
+      "quality": 82,
+      "bytes": 273857,
+      "rgb_ssim": 0.970224,
+      "quality_passed": true
+    },
+    "target_met": false,
+    "output_sha256": "584aed732efa18ea600cb0d788df6367fe9fdd5b5698a34b7847ca307d9d9d4d"
+  }
+}

@@ -1,0 +1,793 @@
+{
+  "source": "<TEST_WORKSPACE>\\work\\final-video\\hdr10.mp4",
+  "status": "optimized",
+  "message": "Doğrulandı · %79.2 daha küçük",
+  "output": "<TEST_WORKSPACE>\\work\\final-video\\out\\hdr10.optimized.mp4",
+  "source_bytes": 2702733,
+  "output_bytes": 561130,
+  "elapsed_seconds": 10.062,
+  "report": "<TEST_WORKSPACE>\\work\\final-video\\out\\hdr10.7cd43cf4bd.report.json",
+  "checks": {
+    "dimensions": true,
+    "pixel_format": true,
+    "color_hdr": true,
+    "stream_metadata": true,
+    "chapters": true,
+    "frame_count_and_timing": true,
+    "audio_samples": true,
+    "copied_streams": true,
+    "perceptual_quality": true,
+    "original_unchanged": true,
+    "smaller": true
+  },
+  "details": {
+    "source_sha256": "8f004f3c1ff6e86ba2192c1f5822b42f5d62076f7fd2c5ca10deb05fcb7de7af",
+    "options": {
+      "quality": "high",
+      "compatibility": "hevc",
+      "software": true,
+      "max_parallel": 1,
+      "threads": 8,
+      "sample_seconds": 0.2,
+      "sample_timeout": 180
+    },
+    "source": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "hevc",
+          "codec_long_name": "H.265 / HEVC (High Efficiency Video Coding)",
+          "profile": "Main 10",
+          "codec_type": "video",
+          "codec_tag_string": "hev1",
+          "codec_tag": "0x31766568",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1088,
+          "has_b_frames": 2,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "16:9",
+          "pix_fmt": "yuv420p10le",
+          "level": 255,
+          "color_range": "tv",
+          "color_space": "bt2020nc",
+          "color_transfer": "smpte2084",
+          "color_primaries": "bt2020",
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "view_ids_available": "",
+          "view_pos_available": "",
+          "id": "0x1",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "time_base": "1/15360",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 6144,
+          "duration": "0.400000",
+          "bit_rate": "53983400",
+          "nb_frames": "12",
+          "extradata_size": 2529,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.102 libx265"
+          },
+          "frame_side_data": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            },
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            },
+            {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "34000/50000",
+              "red_y": "16000/50000",
+              "green_x": "13250/50000",
+              "green_y": "34500/50000",
+              "blue_x": "7500/50000",
+              "blue_y": "3000/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "10000000/10000"
+            },
+            {
+              "side_data_type": "Content light level metadata",
+              "max_content": 1000,
+              "max_average": 400
+            },
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            },
+            {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "34000/50000",
+              "red_y": "16000/50000",
+              "green_x": "13250/50000",
+              "green_y": "34500/50000",
+              "blue_x": "7500/50000",
+              "blue_y": "3000/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "10000000/10000"
+            },
+            {
+              "side_data_type": "Content light level metadata",
+              "max_content": 1000,
+              "max_average": 400
+            },
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            },
+            {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "34000/50000",
+              "red_y": "16000/50000",
+              "green_x": "13250/50000",
+              "green_y": "34500/50000",
+              "blue_x": "7500/50000",
+              "blue_y": "3000/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "10000000/10000"
+            },
+            {
+              "side_data_type": "Content light level metadata",
+              "max_content": 1000,
+              "max_average": 400
+            },
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            },
+            {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "34000/50000",
+              "red_y": "16000/50000",
+              "green_x": "13250/50000",
+              "green_y": "34500/50000",
+              "blue_x": "7500/50000",
+              "blue_y": "3000/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "10000000/10000"
+            },
+            {
+              "side_data_type": "Content light level metadata",
+              "max_content": 1000,
+              "max_average": 400
+            },
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            },
+            {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "34000/50000",
+              "red_y": "16000/50000",
+              "green_x": "13250/50000",
+              "green_y": "34500/50000",
+              "blue_x": "7500/50000",
+              "blue_y": "3000/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "10000000/10000"
+            },
+            {
+              "side_data_type": "Content light level metadata",
+              "max_content": 1000,
+              "max_average": 400
+            },
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            },
+            {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "34000/50000",
+              "red_y": "16000/50000",
+              "green_x": "13250/50000",
+              "green_y": "34500/50000",
+              "blue_x": "7500/50000",
+              "blue_y": "3000/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "10000000/10000"
+            },
+            {
+              "side_data_type": "Content light level metadata",
+              "max_content": 1000,
+              "max_average": 400
+            },
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            },
+            {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "34000/50000",
+              "red_y": "16000/50000",
+              "green_x": "13250/50000",
+              "green_y": "34500/50000",
+              "blue_x": "7500/50000",
+              "blue_y": "3000/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "10000000/10000"
+            },
+            {
+              "side_data_type": "Content light level metadata",
+              "max_content": 1000,
+              "max_average": 400
+            },
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            },
+            {
+              "side_data_type": "Mastering display metadata",
+              "red_x": "34000/50000",
+              "red_y": "16000/50000",
+              "green_x": "13250/50000",
+              "green_y": "34500/50000",
+              "blue_x": "7500/50000",
+              "blue_y": "3000/50000",
+              "white_point_x": "15635/50000",
+              "white_point_y": "16450/50000",
+              "min_luminance": "1/10000",
+              "max_luminance": "10000000/10000"
+            },
+            {
+              "side_data_type": "Content light level metadata",
+              "max_content": 1000,
+              "max_average": 400
+            }
+          ]
+        }
+      ],
+      "chapters": [],
+      "format": {
+        "filename": "<TEST_WORKSPACE>\\work\\final-video\\hdr10.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "0.400000",
+        "size": "2702733",
+        "bit_rate": "54054660",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2mp41",
+          "encoder": "Lavf63.1.102"
+        }
+      },
+      "video": {
+        "index": 0,
+        "codec_name": "hevc",
+        "codec_long_name": "H.265 / HEVC (High Efficiency Video Coding)",
+        "profile": "Main 10",
+        "codec_type": "video",
+        "codec_tag_string": "hev1",
+        "codec_tag": "0x31766568",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1088,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p10le",
+        "level": 255,
+        "color_range": "tv",
+        "color_space": "bt2020nc",
+        "color_transfer": "smpte2084",
+        "color_primaries": "bt2020",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "view_ids_available": "",
+        "view_pos_available": "",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 6144,
+        "duration": "0.400000",
+        "bit_rate": "53983400",
+        "nb_frames": "12",
+        "extradata_size": 2529,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx265"
+        },
+        "frame_side_data": [
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          },
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          },
+          {
+            "side_data_type": "Mastering display metadata",
+            "red_x": "34000/50000",
+            "red_y": "16000/50000",
+            "green_x": "13250/50000",
+            "green_y": "34500/50000",
+            "blue_x": "7500/50000",
+            "blue_y": "3000/50000",
+            "white_point_x": "15635/50000",
+            "white_point_y": "16450/50000",
+            "min_luminance": "1/10000",
+            "max_luminance": "10000000/10000"
+          },
+          {
+            "side_data_type": "Content light level metadata",
+            "max_content": 1000,
+            "max_average": 400
+          },
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          },
+          {
+            "side_data_type": "Mastering display metadata",
+            "red_x": "34000/50000",
+            "red_y": "16000/50000",
+            "green_x": "13250/50000",
+            "green_y": "34500/50000",
+            "blue_x": "7500/50000",
+            "blue_y": "3000/50000",
+            "white_point_x": "15635/50000",
+            "white_point_y": "16450/50000",
+            "min_luminance": "1/10000",
+            "max_luminance": "10000000/10000"
+          },
+          {
+            "side_data_type": "Content light level metadata",
+            "max_content": 1000,
+            "max_average": 400
+          },
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          },
+          {
+            "side_data_type": "Mastering display metadata",
+            "red_x": "34000/50000",
+            "red_y": "16000/50000",
+            "green_x": "13250/50000",
+            "green_y": "34500/50000",
+            "blue_x": "7500/50000",
+            "blue_y": "3000/50000",
+            "white_point_x": "15635/50000",
+            "white_point_y": "16450/50000",
+            "min_luminance": "1/10000",
+            "max_luminance": "10000000/10000"
+          },
+          {
+            "side_data_type": "Content light level metadata",
+            "max_content": 1000,
+            "max_average": 400
+          },
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          },
+          {
+            "side_data_type": "Mastering display metadata",
+            "red_x": "34000/50000",
+            "red_y": "16000/50000",
+            "green_x": "13250/50000",
+            "green_y": "34500/50000",
+            "blue_x": "7500/50000",
+            "blue_y": "3000/50000",
+            "white_point_x": "15635/50000",
+            "white_point_y": "16450/50000",
+            "min_luminance": "1/10000",
+            "max_luminance": "10000000/10000"
+          },
+          {
+            "side_data_type": "Content light level metadata",
+            "max_content": 1000,
+            "max_average": 400
+          },
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          },
+          {
+            "side_data_type": "Mastering display metadata",
+            "red_x": "34000/50000",
+            "red_y": "16000/50000",
+            "green_x": "13250/50000",
+            "green_y": "34500/50000",
+            "blue_x": "7500/50000",
+            "blue_y": "3000/50000",
+            "white_point_x": "15635/50000",
+            "white_point_y": "16450/50000",
+            "min_luminance": "1/10000",
+            "max_luminance": "10000000/10000"
+          },
+          {
+            "side_data_type": "Content light level metadata",
+            "max_content": 1000,
+            "max_average": 400
+          },
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          },
+          {
+            "side_data_type": "Mastering display metadata",
+            "red_x": "34000/50000",
+            "red_y": "16000/50000",
+            "green_x": "13250/50000",
+            "green_y": "34500/50000",
+            "blue_x": "7500/50000",
+            "blue_y": "3000/50000",
+            "white_point_x": "15635/50000",
+            "white_point_y": "16450/50000",
+            "min_luminance": "1/10000",
+            "max_luminance": "10000000/10000"
+          },
+          {
+            "side_data_type": "Content light level metadata",
+            "max_content": 1000,
+            "max_average": 400
+          },
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          },
+          {
+            "side_data_type": "Mastering display metadata",
+            "red_x": "34000/50000",
+            "red_y": "16000/50000",
+            "green_x": "13250/50000",
+            "green_y": "34500/50000",
+            "blue_x": "7500/50000",
+            "blue_y": "3000/50000",
+            "white_point_x": "15635/50000",
+            "white_point_y": "16450/50000",
+            "min_luminance": "1/10000",
+            "max_luminance": "10000000/10000"
+          },
+          {
+            "side_data_type": "Content light level metadata",
+            "max_content": 1000,
+            "max_average": 400
+          },
+          {
+            "side_data_type": "H.26[45] User Data Unregistered SEI message"
+          },
+          {
+            "side_data_type": "Mastering display metadata",
+            "red_x": "34000/50000",
+            "red_y": "16000/50000",
+            "green_x": "13250/50000",
+            "green_y": "34500/50000",
+            "blue_x": "7500/50000",
+            "blue_y": "3000/50000",
+            "white_point_x": "15635/50000",
+            "white_point_y": "16450/50000",
+            "min_luminance": "1/10000",
+            "max_luminance": "10000000/10000"
+          },
+          {
+            "side_data_type": "Content light level metadata",
+            "max_content": 1000,
+            "max_average": 400
+          }
+        ]
+      },
+      "duration": 0.4
+    },
+    "scene_analysis": [
+      {
+        "offset": 0.2,
+        "length": 0.2,
+        "spatial_detail": 5.026065688329839,
+        "motion": 0.0
+      },
+      {
+        "offset": 0.1,
+        "length": 0.2,
+        "spatial_detail": 5.00188679245283,
+        "motion": 0.0
+      },
+      {
+        "offset": 0,
+        "length": 0.2,
+        "spatial_detail": 4.99706498951782,
+        "motion": 0.0
+      }
+    ],
+    "tested": [
+      {
+        "encoder": "hevc_nvenc",
+        "quality": 13,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9997991666666666,
+            "ssim_p05": 0.9997,
+            "ssim_min": 0.999702,
+            "frames_measured": 6,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": null,
+            "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+          },
+          {
+            "ssim_mean": 0.9997963333333333,
+            "ssim_p05": 0.9996,
+            "ssim_min": 0.99969,
+            "frames_measured": 6,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": null,
+            "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+          },
+          {
+            "ssim_mean": 0.9997656666666664,
+            "ssim_p05": 0.9996,
+            "ssim_min": 0.999623,
+            "frames_measured": 6,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": null,
+            "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+          }
+        ]
+      },
+      {
+        "encoder": "hevc_nvenc",
+        "quality": 18,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9997168333333333,
+            "ssim_p05": 0.9996,
+            "ssim_min": 0.999686,
+            "frames_measured": 6,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": null,
+            "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+          },
+          {
+            "ssim_mean": 0.9997121666666667,
+            "ssim_p05": 0.9996,
+            "ssim_min": 0.999677,
+            "frames_measured": 6,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": null,
+            "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+          },
+          {
+            "ssim_mean": 0.9996721666666666,
+            "ssim_p05": 0.9996,
+            "ssim_min": 0.999607,
+            "frames_measured": 6,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": null,
+            "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+          }
+        ]
+      },
+      {
+        "encoder": "hevc_nvenc",
+        "quality": 23,
+        "passed": true,
+        "sample_metrics": [
+          {
+            "ssim_mean": 0.9993813333333335,
+            "ssim_p05": 0.9993,
+            "ssim_min": 0.999304,
+            "frames_measured": 6,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": null,
+            "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+          },
+          {
+            "ssim_mean": 0.9993803333333333,
+            "ssim_p05": 0.9992,
+            "ssim_min": 0.999289,
+            "frames_measured": 6,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": null,
+            "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+          },
+          {
+            "ssim_mean": 0.9993756666666668,
+            "ssim_p05": 0.9992,
+            "ssim_min": 0.99929,
+            "frames_measured": 6,
+            "resolution": [
+              1920,
+              1080
+            ],
+            "vmaf": null,
+            "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+          }
+        ]
+      }
+    ],
+    "rejected_encoders": [],
+    "rate_context": {
+      "source_video_bitrate": 53983400.0,
+      "fps": 30.0,
+      "bits_per_pixel_per_frame": 0.8677887088477366,
+      "hdr": true,
+      "source_codec": "hevc",
+      "pixels": 2073600
+    },
+    "thresholds": {
+      "ssim_mean": 0.99,
+      "ssim_p05": 0.97,
+      "vmaf_mean": 95.0
+    },
+    "selected": {
+      "encoder": "hevc_nvenc",
+      "quality": 23,
+      "estimated_video_bytes": 634518.0,
+      "sample_encode_seconds": 1.9059999999954016,
+      "sample_seconds": 0.6000000000000001
+    },
+    "command": [
+      "<TEST_WORKSPACE>\\outputs\\LRXe8-Media-Optimizer\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+      "-hide_banner",
+      "-v",
+      "error",
+      "-nostdin",
+      "-n",
+      "-threads",
+      "8",
+      "-copyts",
+      "-noautorotate",
+      "-i",
+      "<TEST_WORKSPACE>\\work\\final-video\\hdr10.mp4",
+      "-map",
+      "0",
+      "-map_metadata",
+      "0",
+      "-map_chapters",
+      "0",
+      "-c",
+      "copy",
+      "-c:v:0",
+      "hevc_nvenc",
+      "-fps_mode:v:0",
+      "passthrough",
+      "-enc_time_base:v:0",
+      "1:15360",
+      "-pix_fmt",
+      "p010le",
+      "-threads",
+      "8",
+      "-preset",
+      "p6",
+      "-tune",
+      "hq",
+      "-rc",
+      "vbr",
+      "-cq",
+      "23",
+      "-b:v",
+      "0",
+      "-rc-lookahead",
+      "16",
+      "-spatial-aq",
+      "1",
+      "-color_range",
+      "tv",
+      "-colorspace",
+      "bt2020nc",
+      "-color_trc",
+      "smpte2084",
+      "-color_primaries",
+      "bt2020",
+      "-chroma_sample_location",
+      "left",
+      "-movflags",
+      "+faststart+use_metadata_tags",
+      "-tag:v:0",
+      "hvc1",
+      "<TEST_WORKSPACE>\\work\\final-video\\out\\.lrxe8-ypezjfpg\\candidate-0-0.mp4"
+    ],
+    "timeline": {
+      "frames": 12,
+      "max_timing_error_seconds": 0.0,
+      "source_duration": 0.4,
+      "output_duration": 0.4,
+      "common_shift_seconds": 0.0,
+      "display_intervals": "Every presentation timestamp compared; last-frame duration checked separately",
+      "source_fps": "30/1",
+      "output_fps": "30/1",
+      "source_time_base": "1/15360",
+      "output_time_base": "1/15360"
+    },
+    "audio": [],
+    "copied_streams": [],
+    "quality": {
+      "ssim_mean": 0.9991571666666667,
+      "ssim_p05": 0.9988,
+      "ssim_min": 0.9988,
+      "frames_measured": 12,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "vmaf": null,
+      "vmaf_note": "Bu çözünürlük/renk alanı için kalibre edilmiş VMAF modeli seçilmedi; tam çözünürlüklü SSIM kullanıldı."
+    },
+    "final_attempt_errors": [],
+    "output_sha256": "0837837b726006981edf917ba9aeda3265ec4e5be79724c1db3703427942e170"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-23",
+  "unit_tests": 61,
+  "hardware_supported": 27,
+  "hardware_attempts": 30,
+  "frozen_self_test": "passed",
+  "frozen_video_test": "passed",
+  "files": {
+    "app/LRXe8-Media-Optimizer.exe": {
+      "bytes": 2992392,
+      "sha256": "6c1e0a525cbb1a95908967a320c88ae0cb8e44e6f985b02ac33a764f4e228e68"
+    },
+    "tools/ffmpeg/ffmpeg-9.0.2-full_build/bin/ffmpeg.exe": {
+      "bytes": 227823104,
+      "sha256": "589e50b766d251afdf181dd664d40bd94407e200b019989fd7468c7d118a28d0"
+    },
+    "tools/ffmpeg/ffmpeg-9.0.2-full_build/bin/ffprobe.exe": {
+      "bytes": 227621376,
+      "sha256": "02264dfa4f56baaa31e443ece8aa16d397f6b008200e7fd184d22b9009e75fd3"
+    },
+    "tools/jpeg/bin/jpegtran.exe": {
+      "bytes": 58880,
+      "sha256": "671166b760a6b0e6b9888ce471fcb97c2a245db07512cd75c23ee29148d0acd0"
+    },
+    "tools/oxipng/oxipng-10.2.1-x86_64-pc-windows-msvc/oxipng.exe": {
+      "bytes": 991744,
+      "sha256": "35ae3980ab831af64f4aecc98f69b81bfa146fa750a61d17ebbb12520128cbc8"
+    }
+  },
+  "version": "1.1.1",
+  "actual_4k60_creation_time_regression": "passed",
+  "installed_executable": "LRXe8-Media-Optimizer-1.1.1.exe",
+  "installed_photo_repeated_twice": "one media file, no reports",
+  "unicode_metric_test": "passed",
+  "blue_mov_full_test": "passed",
+  "video_encoding_settings_unchanged": true
+}

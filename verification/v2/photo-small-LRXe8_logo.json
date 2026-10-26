@@ -1,0 +1,129 @@
+{
+ "source": "<MEDIA_ROOT>\\LRXe8 logo.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %72.7 daha küçük · WEBP · SSIMULACRA2 90.6",
+ "output": "<TEST_WORKSPACE>\\ph3\\LRXe8 logo.optimized.webp",
+ "source_bytes": 325280,
+ "output_bytes": 88800,
+ "elapsed_seconds": 55.437,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "visually_lossless": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "edd28f87e31cacb35ec6f9525be34e4d17afa0b6846625f8105cc652dfcb9ec7",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "small",
+   "photo_target_kb": 256,
+   "photo_format": "auto"
+  },
+  "photo_mode": "small",
+  "lossless": false,
+  "target_bytes": 262144,
+  "policy": "Görsel kayıpsız: SSIMULACRA2 >= 90, aynı çözünürlük, birebir alpha ve metadata",
+  "format": "PNG",
+  "dimensions": [
+   1254,
+   1254
+  ],
+  "archived_metadata_chunks": [
+   "LRXM"
+  ],
+  "archive_note": "Format-specific metadata preserved in-file; original signatures describe the source, not this edited image.",
+  "attempts": [
+   {
+    "format": "WEBP",
+    "quality": 70,
+    "bytes": 61266,
+    "ssimulacra2": 88.51,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 85,
+    "bytes": 65846,
+    "ssimulacra2": 89.844,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 93,
+    "bytes": 72482,
+    "ssimulacra2": 90.39,
+    "quality_passed": true
+   },
+   {
+    "format": "WEBP",
+    "quality": 89,
+    "bytes": 68330,
+    "ssimulacra2": 90.117,
+    "quality_passed": true
+   },
+   {
+    "format": "WEBP",
+    "quality": 87,
+    "bytes": 66914,
+    "ssimulacra2": 89.798,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 88,
+    "bytes": 67980,
+    "ssimulacra2": 89.994,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 95,
+    "bytes": 77162,
+    "ssimulacra2": 90.216,
+    "quality_passed": true
+   },
+   {
+    "format": "WEBP",
+    "quality": 98,
+    "bytes": 83736,
+    "ssimulacra2": 90.56,
+    "quality_passed": true
+   },
+   {
+    "format": "WEBP",
+    "quality": 99,
+    "bytes": 86960,
+    "ssimulacra2": 90.568,
+    "quality_passed": true
+   },
+   {
+    "format": "WEBP",
+    "quality": 100,
+    "bytes": 88800,
+    "ssimulacra2": 90.553,
+    "quality_passed": true
+   }
+  ],
+  "minimum_ssimulacra2": 90.0,
+  "selected": {
+   "format": "WEBP",
+   "quality": 100,
+   "bytes": 88800,
+   "ssimulacra2": 90.553,
+   "quality_passed": true
+  },
+  "target_met": true,
+  "output_format": "WEBP",
+  "output_sha256": "79f07ff2d7636151ab6c8bec9ccfbb7147a18fc3e2d6e6dc328bd5c338b8b2c9"
+ }
+}

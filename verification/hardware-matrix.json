@@ -1,0 +1,245 @@
+[
+  {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "encoder": "h264_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      2048,
+      1080
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      2048,
+      1080
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      2048,
+      1080
+    ],
+    "encoder": "h264_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      2560,
+      1440
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      2560,
+      1440
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      2560,
+      1440
+    ],
+    "encoder": "h264_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      3840,
+      2160
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      3840,
+      2160
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      3840,
+      2160
+    ],
+    "encoder": "h264_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      4096,
+      2160
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      4096,
+      2160
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      4096,
+      2160
+    ],
+    "encoder": "h264_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      5120,
+      2880
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      5120,
+      2880
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      5120,
+      2880
+    ],
+    "encoder": "h264_nvenc",
+    "result": "unsupported",
+    "reason": "ffmpeg.exe hata kodu 3752568763: [h264_nvenc @ 0000016a51fc9f80] No capable devices found\r\n[vost#0:0/h264_nvenc @ 0000016a51fc9d40] [enc:h264_nvenc @ 0000016a51fa7780] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.\r\n[vf#0:0 @ 0000016a51fe4e40] Error sending frames to consumers: Generic error in an external library\r\n[vf#0:0 @ 0000016a51fe4e40] Task finished with error code: -542398533 (Generic error in an external library)\r\n[vf#0:0 @ 0000016a51fe4e40] Terminating thread with return code -542398533 (Generic error in an external library)\r\n[vost#0:0/h264_nvenc @ 0000016a51fc9d40] [enc:h264_nvenc @ 0000016a51fa7780] Could not open encoder before EOF\r\n[vost#0:0/h264_nvenc @ 0000016a51fc9d40] Task finished with error code: -22 (Invalid argument)\r\n[vost#0:0/h264_nvenc @ 0000016a51fc9d40] Terminating thread with return code -22 (Invalid argument)\r\n[out#0/mp4 @ 0000016a51fc8cc0] Nothing was written into output file, because at least one of its streams received no packets.\r\n"
+  },
+  {
+    "resolution": [
+      6144,
+      3160
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      6144,
+      3160
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      6144,
+      3160
+    ],
+    "encoder": "h264_nvenc",
+    "result": "unsupported",
+    "reason": "ffmpeg.exe hata kodu 3752568763: [h264_nvenc @ 0000021963dcafc0] No capable devices found\r\n[vost#0:0/h264_nvenc @ 0000021963dcacc0] [enc:h264_nvenc @ 0000021963daac80] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.\r\n[vf#0:0 @ 0000021963de5e80] Error sending frames to consumers: Generic error in an external library\r\n[vf#0:0 @ 0000021963de5e80] Task finished with error code: -542398533 (Generic error in an external library)\r\n[vf#0:0 @ 0000021963de5e80] Terminating thread with return code -542398533 (Generic error in an external library)\r\n[vost#0:0/h264_nvenc @ 0000021963dcacc0] [enc:h264_nvenc @ 0000021963daac80] Could not open encoder before EOF\r\n[vost#0:0/h264_nvenc @ 0000021963dcacc0] Task finished with error code: -22 (Invalid argument)\r\n[vost#0:0/h264_nvenc @ 0000021963dcacc0] Terminating thread with return code -22 (Invalid argument)\r\n[out#0/mp4 @ 0000021963dca140] Nothing was written into output file, because at least one of its streams received no packets.\r\n"
+  },
+  {
+    "resolution": [
+      7680,
+      4320
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      7680,
+      4320
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      7680,
+      4320
+    ],
+    "encoder": "h264_nvenc",
+    "result": "unsupported",
+    "reason": "ffmpeg.exe hata kodu 3752568763: [h264_nvenc @ 0000024da3a4c500] No capable devices found\r\n[vost#0:0/h264_nvenc @ 0000024da3a4c200] [enc:h264_nvenc @ 0000024da3a295c0] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height.\r\n[vf#0:0 @ 0000024da3a673c0] Error sending frames to consumers: Generic error in an external library\r\n[vf#0:0 @ 0000024da3a673c0] Task finished with error code: -542398533 (Generic error in an external library)\r\n[vf#0:0 @ 0000024da3a673c0] Terminating thread with return code -542398533 (Generic error in an external library)\r\n[vost#0:0/h264_nvenc @ 0000024da3a4c200] [enc:h264_nvenc @ 0000024da3a295c0] Could not open encoder before EOF\r\n[vost#0:0/h264_nvenc @ 0000024da3a4c200] Task finished with error code: -22 (Invalid argument)\r\n[vost#0:0/h264_nvenc @ 0000024da3a4c200] Terminating thread with return code -22 (Invalid argument)\r\n[out#0/mp4 @ 0000024da3a4a340] Nothing was written into output file, because at least one of its streams received no packets.\r\n"
+  },
+  {
+    "resolution": [
+      1080,
+      1920
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      1080,
+      1920
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      1080,
+      1920
+    ],
+    "encoder": "h264_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      2222,
+      1112
+    ],
+    "encoder": "av1_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      2222,
+      1112
+    ],
+    "encoder": "hevc_nvenc",
+    "result": "pass"
+  },
+  {
+    "resolution": [
+      2222,
+      1112
+    ],
+    "encoder": "h264_nvenc",
+    "result": "pass"
+  }
+]

@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+app/
+tools/
+*.spec
+build/
+build-mac/
+dist/
+verification/*.png

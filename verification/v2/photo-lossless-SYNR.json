@@ -1,0 +1,44 @@
+{
+ "source": "<PHOTO_ROOT>\\SYNR.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %8.4 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\SYNR.optimized.png",
+ "source_bytes": 2014690,
+ "output_bytes": 1845132,
+ "elapsed_seconds": 20.969,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "ebab6dc3e8d557c16c43430cadfb05d573c85577b3e9a8abdde40d890f7acd19",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "PNG",
+  "dimensions": [
+   2172,
+   724
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "same layout, recompressed IDAT",
+  "output_sha256": "f7764117bda85a9804c1db66f825eab596c258e2eda124e390af05aa0298ab3e"
+ }
+}

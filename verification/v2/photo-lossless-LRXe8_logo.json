@@ -1,0 +1,44 @@
+{
+ "source": "<MEDIA_ROOT>\\LRXe8 logo.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %37.3 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\LRXe8 logo.optimized.png",
+ "source_bytes": 325280,
+ "output_bytes": 203903,
+ "elapsed_seconds": 7.797,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "edd28f87e31cacb35ec6f9525be34e4d17afa0b6846625f8105cc652dfcb9ec7",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "PNG",
+  "dimensions": [
+   1254,
+   1254
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "same layout, recompressed IDAT",
+  "output_sha256": "8bf78ecde9811a003b21ed91eb166c032ea1fb17b8c5f8a48786cad9c573c139"
+ }
+}

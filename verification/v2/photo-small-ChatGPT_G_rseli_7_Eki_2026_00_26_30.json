@@ -1,0 +1,143 @@
+{
+ "source": "<PHOTO_ROOT>\\ChatGPT Görseli 7 Eki 2026 00_26_30.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %83.4 daha küçük · AVIF · SSIMULACRA2 90.3 · 256 KB hedefi görsel kalite için aşıldı",
+ "output": "<TEST_WORKSPACE>\\ph3\\ChatGPT Görseli 7 Eki 2026 00_26_30.optimized.avif",
+ "source_bytes": 2276518,
+ "output_bytes": 377133,
+ "elapsed_seconds": 14.468,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "visually_lossless": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "39434c64f0dc9053dbd637ce1b7c3c46bf501f08eda1551ab32efe6b3cebdff6",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "small",
+   "photo_target_kb": 256,
+   "photo_format": "auto"
+  },
+  "photo_mode": "small",
+  "lossless": false,
+  "target_bytes": 262144,
+  "policy": "Görsel kayıpsız: SSIMULACRA2 >= 90, aynı çözünürlük, birebir alpha ve metadata",
+  "format": "PNG",
+  "dimensions": [
+   1069,
+   1472
+  ],
+  "archived_metadata_chunks": [
+   "LRXM"
+  ],
+  "archive_note": "Format-specific metadata preserved in-file; original signatures describe the source, not this edited image.",
+  "attempts": [
+   {
+    "format": "AVIF",
+    "quality": 70,
+    "bytes": 210534,
+    "ssimulacra2": 82.291,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 85,
+    "bytes": 294821,
+    "ssimulacra2": 87.773,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 93,
+    "bytes": 442786,
+    "ssimulacra2": 91.442,
+    "quality_passed": true
+   },
+   {
+    "format": "AVIF",
+    "quality": 89,
+    "bytes": 353219,
+    "ssimulacra2": 89.63,
+    "quality_passed": false
+   },
+   {
+    "format": "AVIF",
+    "quality": 91,
+    "bytes": 406141,
+    "ssimulacra2": 90.805,
+    "quality_passed": true
+   },
+   {
+    "format": "AVIF",
+    "quality": 90,
+    "bytes": 377133,
+    "ssimulacra2": 90.277,
+    "quality_passed": true
+   },
+   {
+    "format": "WEBP",
+    "quality": 70,
+    "bytes": 161058,
+    "ssimulacra2": 61.183,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 85,
+    "bytes": 249436,
+    "ssimulacra2": 75.531,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 93,
+    "bytes": 380286,
+    "ssimulacra2": 80.6,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 97,
+    "bytes": 494732,
+    "ssimulacra2": 81.989,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 99,
+    "bytes": 601422,
+    "ssimulacra2": 82.384,
+    "quality_passed": false
+   },
+   {
+    "format": "WEBP",
+    "quality": 100,
+    "bytes": 616522,
+    "ssimulacra2": 82.117,
+    "quality_passed": false
+   }
+  ],
+  "minimum_ssimulacra2": 90.0,
+  "selected": {
+   "format": "AVIF",
+   "quality": 90,
+   "bytes": 377133,
+   "ssimulacra2": 90.277,
+   "quality_passed": true
+  },
+  "target_met": false,
+  "output_format": "AVIF",
+  "output_sha256": "9d170fa21eabfd4d5ee8e6be8182fb0fd4fbd17b895bab81635d0efd21e59a8d"
+ }
+}

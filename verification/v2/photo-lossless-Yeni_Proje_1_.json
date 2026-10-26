@@ -1,0 +1,44 @@
+{
+ "source": "<MEDIA_ROOT>\\Yeni Proje (1).png",
+ "status": "optimized",
+ "message": "Doğrulandı · %25.4 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\Yeni Proje (1).optimized.png",
+ "source_bytes": 192197,
+ "output_bytes": 143317,
+ "elapsed_seconds": 9.218,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "20206d41fe2450f3c41cee141f477f774c4e1a6d81971015f1da85493cf6f5bb",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "PNG",
+  "dimensions": [
+   1080,
+   1080
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "same layout, recompressed IDAT",
+  "output_sha256": "36b445935844cfc77c2a0b9beaf0a0107e6e034886b180f9d8dff21e0382a3c6"
+ }
+}

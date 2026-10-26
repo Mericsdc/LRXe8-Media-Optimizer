@@ -1,0 +1,44 @@
+{
+ "source": "<PHOTO_ROOT>\\M-E.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %12.3 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\M-E.optimized.png",
+ "source_bytes": 2062658,
+ "output_bytes": 1808424,
+ "elapsed_seconds": 13.844,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "51fcc4eca31a28f0f25ffe1ad9ccdaa32ce2653491ac37cdc37c315f66576f18",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "PNG",
+  "dimensions": [
+   941,
+   1672
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "same layout, recompressed IDAT",
+  "output_sha256": "ffe8a3149f8a10531c159d60cafdf3a4876df18cb9a1685cdda02d7debe7863d"
+ }
+}

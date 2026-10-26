@@ -1,0 +1,42 @@
+{
+  "source": "<SOURCE_PHOTO>",
+  "status": "optimized",
+  "message": "Doğrulandı · %7.1 daha küçük",
+  "output": "<TEST_WORKSPACE>\\work\\photo-update\\lossless\\ChatGPT Görseli 7 Eki 2026 00_26_30.optimized.png",
+  "source_bytes": 2276518,
+  "output_bytes": 2113868,
+  "elapsed_seconds": 20.25,
+  "report": null,
+  "checks": {
+    "dimensions": true,
+    "pixels_exact": true,
+    "alpha_exact": true,
+    "metadata_exact": true,
+    "original_unchanged": true,
+    "smaller": true
+  },
+  "details": {
+    "source_sha256": "39434c64f0dc9053dbd637ce1b7c3c46bf501f08eda1551ab32efe6b3cebdff6",
+    "options": {
+      "quality": "high",
+      "compatibility": "auto",
+      "software": true,
+      "max_parallel": 1,
+      "threads": 8,
+      "sample_seconds": 1.0,
+      "sample_timeout": 180,
+      "photo_mode": "lossless",
+      "photo_target_kb": 256,
+      "photo_format": "auto"
+    },
+    "format": "PNG",
+    "dimensions": [
+      1069,
+      1472
+    ],
+    "frames": 1,
+    "policy": "exact decoded pixels + metadata; no resize",
+    "photo_mode": "lossless",
+    "output_sha256": "26c97d035b0feb17c24cd5d896281ea48fbf6a9c23fc3c0efa0b777b60d59e30"
+  }
+}

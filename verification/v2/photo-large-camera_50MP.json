@@ -1,0 +1,44 @@
+{
+ "source": "<TEST_WORKSPACE>\\big\\camera_50MP.jpg",
+ "status": "optimized",
+ "message": "Doğrulandı · %15.9 daha küçük",
+ "output": "<TEST_WORKSPACE>\\bigout\\camera_50MP.optimized.jpg",
+ "source_bytes": 7266847,
+ "output_bytes": 6109453,
+ "elapsed_seconds": 7.61,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "132b1093cdeae06135ff5f37bb0048ac3686616223f4a76eaf74dd8a0b2a0b11",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 1,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "JPEG",
+  "dimensions": [
+   8400,
+   6000
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "MozJPEG lossless (all markers copied)",
+  "output_sha256": "ec66387db893ca442cc9ef54c10efb1eb205f80cd393275f02f6275dabb7aa07"
+ }
+}

@@ -1,0 +1,1039 @@
+{
+ "source": "<MEDIA_ROOT>\\4K video\\0_3d_Model_Abstract_1280x720.mp4",
+ "status": "kept",
+ "message": "Seçilen kalite korunarak küçültülemedi; orijinal korundu. av1_nvenc: görsel kayıpsız kalite için tahmini boyut (22.8 MB) kaynağın video akışından (9.3 MB) büyük · hevc_nvenc: görsel kayıpsız kalite için tahmini boyut (29.8 MB) kaynağın video akışından (9.3 MB) büyük · libsvtav1: görsel kayıpsız kalite için tahmini boyut (29.0 MB) kaynağın video akışından (9.3 MB) büyük · libx265: görsel kayıpsız kalite için tahmini boyut (26.8 MB) kaynağın video akışından (9.3 MB) büyük · h264_nvenc: görsel kayıpsız kalite için tahmini boyut (25.9 MB) kaynağın video akışından (9.3 MB) büyük · libx264: görsel kayıpsız kalite için tahmini boyut (17.1 MB) kaynağın video akışından (9.3 MB) büyük",
+ "output": null,
+ "source_bytes": 9529543,
+ "output_bytes": 0,
+ "elapsed_seconds": 134.921,
+ "report": null,
+ "checks": {
+  "original_unchanged": true
+ },
+ "details": {
+  "source_sha256": "efaf24446446b177faa28c1b2949c53d2ddcfc853dc22074986d20effc70d151",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "source": {
+   "streams": [
+    {
+     "index": 0,
+     "codec_name": "h264",
+     "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+     "profile": "High",
+     "codec_type": "video",
+     "codec_tag_string": "avc1",
+     "codec_tag": "0x31637661",
+     "mime_codec_string": "avc1.64001f",
+     "width": 1280,
+     "height": 720,
+     "coded_width": 1280,
+     "coded_height": 720,
+     "has_b_frames": 2,
+     "pix_fmt": "yuv420p",
+     "level": 31,
+     "chroma_location": "left",
+     "field_order": "progressive",
+     "is_avc": "true",
+     "nal_length_size": "4",
+     "id": "0x1",
+     "r_frame_rate": "25/1",
+     "avg_frame_rate": "25/1",
+     "time_base": "1/12800",
+     "start_pts": 0,
+     "start_time": "0.000000",
+     "duration_ts": 192512,
+     "duration": "15.040000",
+     "bit_rate": "4934315",
+     "bits_per_raw_sample": "8",
+     "nb_frames": "376",
+     "extradata_size": 44,
+     "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+     },
+     "tags": {
+      "language": "eng",
+      "handler_name": "\u001fMainconcept Video Media Handler"
+     }
+    },
+    {
+     "index": 1,
+     "codec_name": "mp3",
+     "codec_long_name": "MP3 (MPEG audio layer 3)",
+     "codec_type": "audio",
+     "codec_tag_string": "mp4a",
+     "codec_tag": "0x6134706d",
+     "mime_codec_string": "mp4a.40.34",
+     "sample_fmt": "fltp",
+     "sample_rate": "48000",
+     "channels": 2,
+     "channel_layout": "stereo",
+     "bits_per_sample": 0,
+     "initial_padding": 1105,
+     "id": "0x2",
+     "r_frame_rate": "0/0",
+     "avg_frame_rate": "0/0",
+     "time_base": "1/48000",
+     "start_pts": 0,
+     "start_time": "0.000000",
+     "duration_ts": 721920,
+     "duration": "15.040000",
+     "bit_rate": "128076",
+     "nb_frames": "628",
+     "disposition": {
+      "default": 1,
+      "dub": 0,
+      "original": 0,
+      "comment": 0,
+      "lyrics": 0,
+      "karaoke": 0,
+      "forced": 0,
+      "hearing_impaired": 0,
+      "visual_impaired": 0,
+      "clean_effects": 0,
+      "attached_pic": 0,
+      "timed_thumbnails": 0,
+      "non_diegetic": 0,
+      "captions": 0,
+      "descriptions": 0,
+      "metadata": 0,
+      "dependent": 0,
+      "still_image": 0,
+      "multilayer": 0
+     },
+     "tags": {
+      "language": "eng",
+      "handler_name": "#Mainconcept MP4 Sound Media Handler"
+     }
+    }
+   ],
+   "chapters": [],
+   "format": {
+    "filename": "<MEDIA_ROOT>\\4K video\\0_3d_Model_Abstract_1280x720.mp4",
+    "nb_streams": 2,
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "format_long_name": "QuickTime / MOV",
+    "start_time": "0.000000",
+    "duration": "15.040000",
+    "size": "9529543",
+    "bit_rate": "5068905",
+    "probe_score": 100,
+    "tags": {
+     "major_brand": "isom",
+     "minor_version": "512",
+     "compatible_brands": "isomiso2avc1mp41",
+     "encoder": "Lavf58.45.100"
+    }
+   },
+   "video": {
+    "index": 0,
+    "codec_name": "h264",
+    "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+    "profile": "High",
+    "codec_type": "video",
+    "codec_tag_string": "avc1",
+    "codec_tag": "0x31637661",
+    "mime_codec_string": "avc1.64001f",
+    "width": 1280,
+    "height": 720,
+    "coded_width": 1280,
+    "coded_height": 720,
+    "has_b_frames": 2,
+    "pix_fmt": "yuv420p",
+    "level": 31,
+    "chroma_location": "left",
+    "field_order": "progressive",
+    "is_avc": "true",
+    "nal_length_size": "4",
+    "id": "0x1",
+    "r_frame_rate": "25/1",
+    "avg_frame_rate": "25/1",
+    "time_base": "1/12800",
+    "start_pts": 0,
+    "start_time": "0.000000",
+    "duration_ts": 192512,
+    "duration": "15.040000",
+    "bit_rate": "4934315",
+    "bits_per_raw_sample": "8",
+    "nb_frames": "376",
+    "extradata_size": 44,
+    "disposition": {
+     "default": 1,
+     "dub": 0,
+     "original": 0,
+     "comment": 0,
+     "lyrics": 0,
+     "karaoke": 0,
+     "forced": 0,
+     "hearing_impaired": 0,
+     "visual_impaired": 0,
+     "clean_effects": 0,
+     "attached_pic": 0,
+     "timed_thumbnails": 0,
+     "non_diegetic": 0,
+     "captions": 0,
+     "descriptions": 0,
+     "metadata": 0,
+     "dependent": 0,
+     "still_image": 0,
+     "multilayer": 0
+    },
+    "tags": {
+     "language": "eng",
+     "handler_name": "\u001fMainconcept Video Media Handler"
+    }
+   },
+   "duration": 15.04
+  },
+  "thresholds": {
+   "vmaf_mean": 98.0,
+   "vmaf_low": 96.0,
+   "cambi_mean": 0.5,
+   "cambi_high": 1.0,
+   "cambi_floor": 1.0,
+   "chroma_psnr": 40.0
+  },
+  "attempts": [
+   {
+    "encoder": "av1_nvenc",
+    "search": [
+     {
+      "quality": 14,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 1826798.1666666667,
+      "sample_metrics": [
+       {
+        "vmaf": 98.8976,
+        "vmaf_low": 98.5107,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.6496,
+        "vmaf_low": 98.8869,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.7945,
+        "vmaf_low": 99.2557,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 17,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 1518463.3333333333,
+      "sample_metrics": [
+       {
+        "vmaf": 98.4282,
+        "vmaf_low": 97.842,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.0907,
+        "vmaf_low": 98.3316,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.4146,
+        "vmaf_low": 98.9307,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 18,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 98.17 < 98.0"
+      ],
+      "bytes_per_second": 1388593.0,
+      "sample_metrics": [
+       {
+        "vmaf": 98.1746,
+        "vmaf_low": 97.3962,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 20,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 97.57 < 98.0",
+       "VMAF en kötü %2 96.47 < 96.0"
+      ],
+      "bytes_per_second": 1216864.0,
+      "sample_metrics": [
+       {
+        "vmaf": 97.5743,
+        "vmaf_low": 96.4667,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 26,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 94.59 < 98.0",
+       "VMAF en kötü %2 92.38 < 96.0"
+      ],
+      "bytes_per_second": 800093.5,
+      "sample_metrics": [
+       {
+        "vmaf": 94.5877,
+        "vmaf_low": 92.3848,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     }
+    ],
+    "chosen_quality": 17,
+    "estimated_video_bytes": 22837689,
+    "skipped": "av1_nvenc: görsel kayıpsız kalite için tahmini boyut (22.8 MB) kaynağın video akışından (9.3 MB) büyük"
+   },
+   {
+    "encoder": "hevc_nvenc",
+    "search": [
+     {
+      "quality": 10,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 2305906.8333333335,
+      "sample_metrics": [
+       {
+        "vmaf": 98.9428,
+        "vmaf_low": 98.0945,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.7869,
+        "vmaf_low": 98.8987,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.5558,
+        "vmaf_low": 99.083,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 12,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 1979687.3333333333,
+      "sample_metrics": [
+       {
+        "vmaf": 98.5637,
+        "vmaf_low": 97.5554,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.4133,
+        "vmaf_low": 98.5274,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.2062,
+        "vmaf_low": 98.4835,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 13,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 98.26 < 98.0"
+      ],
+      "bytes_per_second": 1594096.5,
+      "sample_metrics": [
+       {
+        "vmaf": 98.2631,
+        "vmaf_low": 97.0255,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 14,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 98.01 < 98.0"
+      ],
+      "bytes_per_second": 1497799.5,
+      "sample_metrics": [
+       {
+        "vmaf": 98.0072,
+        "vmaf_low": 96.6819,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 18,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 96.12 < 98.0",
+       "VMAF en kötü %2 93.50 < 96.0"
+      ],
+      "bytes_per_second": 1106281.0,
+      "sample_metrics": [
+       {
+        "vmaf": 96.1173,
+        "vmaf_low": 93.498,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 22,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 92.64 < 98.0",
+       "VMAF en kötü %2 88.98 < 96.0"
+      ],
+      "bytes_per_second": 784584.0,
+      "sample_metrics": [
+       {
+        "vmaf": 92.6417,
+        "vmaf_low": 88.9793,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     }
+    ],
+    "chosen_quality": 12,
+    "estimated_video_bytes": 29774497,
+    "skipped": "hevc_nvenc: görsel kayıpsız kalite için tahmini boyut (29.8 MB) kaynağın video akışından (9.3 MB) büyük"
+   },
+   {
+    "encoder": "libsvtav1",
+    "search": [
+     {
+      "quality": 10,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 2337412.6666666665,
+      "sample_metrics": [
+       {
+        "vmaf": 98.9801,
+        "vmaf_low": 98.6678,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.8859,
+        "vmaf_low": 99.1744,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.8924,
+        "vmaf_low": 99.4547,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 12,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 2045904.6666666667,
+      "sample_metrics": [
+       {
+        "vmaf": 98.6254,
+        "vmaf_low": 98.2358,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.6967,
+        "vmaf_low": 98.7016,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.6367,
+        "vmaf_low": 99.19,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 13,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 1928665.1666666667,
+      "sample_metrics": [
+       {
+        "vmaf": 98.45,
+        "vmaf_low": 98.0968,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.5457,
+        "vmaf_low": 98.6109,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.4835,
+        "vmaf_low": 99.0791,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 14,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 98.26 < 98.0"
+      ],
+      "bytes_per_second": 1447956.5,
+      "sample_metrics": [
+       {
+        "vmaf": 98.2566,
+        "vmaf_low": 97.793,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 20,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 96.91 < 98.0",
+       "VMAF en kötü %2 96.00 < 96.0"
+      ],
+      "bytes_per_second": 1081384.5,
+      "sample_metrics": [
+       {
+        "vmaf": 96.9143,
+        "vmaf_low": 96.0023,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 26,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 95.28 < 98.0",
+       "VMAF en kötü %2 94.06 < 96.0"
+      ],
+      "bytes_per_second": 791160.5,
+      "sample_metrics": [
+       {
+        "vmaf": 95.2754,
+        "vmaf_low": 94.0626,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     }
+    ],
+    "chosen_quality": 13,
+    "estimated_video_bytes": 29007124,
+    "skipped": "libsvtav1: görsel kayıpsız kalite için tahmini boyut (29.0 MB) kaynağın video akışından (9.3 MB) büyük"
+   },
+   {
+    "encoder": "libx265",
+    "search": [
+     {
+      "quality": 11,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 1782233.0,
+      "sample_metrics": [
+       {
+        "vmaf": 98.4927,
+        "vmaf_low": 97.928,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.3202,
+        "vmaf_low": 98.0434,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.4072,
+        "vmaf_low": 99.0436,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 12,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 98.23 < 98.0"
+      ],
+      "bytes_per_second": 1469195.0,
+      "sample_metrics": [
+       {
+        "vmaf": 98.2261,
+        "vmaf_low": 97.5158,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 13,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 97.90 < 98.0"
+      ],
+      "bytes_per_second": 1372244.0,
+      "sample_metrics": [
+       {
+        "vmaf": 97.8981,
+        "vmaf_low": 97.0389,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 15,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 97.18 < 98.0",
+       "VMAF en kötü %2 96.24 < 96.0"
+      ],
+      "bytes_per_second": 1194786.0,
+      "sample_metrics": [
+       {
+        "vmaf": 97.1777,
+        "vmaf_low": 96.2351,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 19,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 94.87 < 98.0",
+       "VMAF en kötü %2 93.10 < 96.0"
+      ],
+      "bytes_per_second": 872584.0,
+      "sample_metrics": [
+       {
+        "vmaf": 94.8717,
+        "vmaf_low": 93.1033,
+        "psnr_cb": 72.0,
+        "psnr_cr": 72.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     }
+    ],
+    "chosen_quality": 11,
+    "estimated_video_bytes": 26804784,
+    "skipped": "libx265: görsel kayıpsız kalite için tahmini boyut (26.8 MB) kaynağın video akışından (9.3 MB) büyük"
+   },
+   {
+    "encoder": "h264_nvenc",
+    "search": [
+     {
+      "quality": 12,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 2027451.0,
+      "sample_metrics": [
+       {
+        "vmaf": 98.8204,
+        "vmaf_low": 98.0729,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0178,
+        "cambi_added_high": 0.1176
+       },
+       {
+        "vmaf": 99.6452,
+        "vmaf_low": 98.5795,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0069,
+        "cambi_added_high": 0.0537
+       },
+       {
+        "vmaf": 99.4187,
+        "vmaf_low": 98.8167,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0021,
+        "cambi_added_high": 0.0265
+       }
+      ]
+     },
+     {
+      "quality": 14,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 1722691.8333333333,
+      "sample_metrics": [
+       {
+        "vmaf": 98.371,
+        "vmaf_low": 97.3984,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0258,
+        "cambi_added_high": 0.1613
+       },
+       {
+        "vmaf": 99.2979,
+        "vmaf_low": 98.0482,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0186,
+        "cambi_added_high": 0.1218
+       },
+       {
+        "vmaf": 99.0335,
+        "vmaf_low": 98.2725,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0107,
+        "cambi_added_high": 0.0982
+       }
+      ]
+     },
+     {
+      "quality": 15,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 98.11 < 98.0"
+      ],
+      "bytes_per_second": 1412412.0,
+      "sample_metrics": [
+       {
+        "vmaf": 98.114,
+        "vmaf_low": 97.048,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0286,
+        "cambi_added_high": 0.1322
+       }
+      ]
+     },
+     {
+      "quality": 16,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 97.72 < 98.0",
+       "VMAF en kötü %2 95.99 < 96.0"
+      ],
+      "bytes_per_second": 1297124.5,
+      "sample_metrics": [
+       {
+        "vmaf": 97.7163,
+        "vmaf_low": 95.9896,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0431,
+        "cambi_added_high": 0.109
+       }
+      ]
+     },
+     {
+      "quality": 20,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 95.53 < 98.0",
+       "VMAF en kötü %2 92.84 < 96.0"
+      ],
+      "bytes_per_second": 945019.0,
+      "sample_metrics": [
+       {
+        "vmaf": 95.5314,
+        "vmaf_low": 92.8424,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.2854,
+        "cambi_added_high": 0.7645
+       }
+      ]
+     }
+    ],
+    "chosen_quality": 14,
+    "estimated_video_bytes": 25909285,
+    "skipped": "h264_nvenc: görsel kayıpsız kalite için tahmini boyut (25.9 MB) kaynağın video akışından (9.3 MB) büyük"
+   },
+   {
+    "encoder": "libx264",
+    "search": [
+     {
+      "quality": 13,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 1221144.3333333333,
+      "sample_metrics": [
+       {
+        "vmaf": 98.7044,
+        "vmaf_low": 98.2815,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0057,
+        "cambi_added_high": 0.0652
+       },
+       {
+        "vmaf": 99.2953,
+        "vmaf_low": 98.0408,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 99.1823,
+        "vmaf_low": 98.3822,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 14,
+      "passed": true,
+      "problems": [],
+      "bytes_per_second": 1137285.8333333333,
+      "sample_metrics": [
+       {
+        "vmaf": 98.4104,
+        "vmaf_low": 97.886,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0094,
+        "cambi_added_high": 0.0772
+       },
+       {
+        "vmaf": 98.9464,
+        "vmaf_low": 97.5473,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       },
+       {
+        "vmaf": 98.8578,
+        "vmaf_low": 98.019,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0,
+        "cambi_added_high": 0.0
+       }
+      ]
+     },
+     {
+      "quality": 15,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 98.13 < 98.0"
+      ],
+      "bytes_per_second": 985997.5,
+      "sample_metrics": [
+       {
+        "vmaf": 98.1252,
+        "vmaf_low": 97.5296,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0175,
+        "cambi_added_high": 0.1176
+       }
+      ]
+     },
+     {
+      "quality": 17,
+      "passed": false,
+      "problems": [
+       "VMAF ort. 97.37 < 98.0"
+      ],
+      "bytes_per_second": 869717.0,
+      "sample_metrics": [
+       {
+        "vmaf": 97.3742,
+        "vmaf_low": 96.5126,
+        "psnr_cb": 60.0,
+        "psnr_cr": 60.0,
+        "cambi_added_mean": 0.0568,
+        "cambi_added_high": 0.215
+       }
+      ]
+     }
+    ],
+    "chosen_quality": 14,
+    "estimated_video_bytes": 17104779,
+    "skipped": "libx264: görsel kayıpsız kalite için tahmini boyut (17.1 MB) kaynağın video akışından (9.3 MB) büyük"
+   }
+  ],
+  "rejected_encoders": [],
+  "scene_analysis": [
+   {
+    "offset": 0.0,
+    "length": 2.0,
+    "spatial_detail": 2.7167708333333334,
+    "motion": 2.154970238095238,
+    "reason": "düz alan / bantlanma riski"
+   },
+   {
+    "offset": 8.693333,
+    "length": 2.0,
+    "spatial_detail": 3.3398958333333333,
+    "motion": 4.741785714285713,
+    "reason": "ayrıntı/hareket"
+   },
+   {
+    "offset": 13.04,
+    "length": 2.0,
+    "spatial_detail": 4.009505208333334,
+    "motion": 4.867589285714286,
+    "reason": "ayrıntı/hareket"
+   }
+  ],
+  "reason": "Seçilen kalite korunarak küçültülemedi; orijinal korundu. av1_nvenc: görsel kayıpsız kalite için tahmini boyut (22.8 MB) kaynağın video akışından (9.3 MB) büyük · hevc_nvenc: görsel kayıpsız kalite için tahmini boyut (29.8 MB) kaynağın video akışından (9.3 MB) büyük · libsvtav1: görsel kayıpsız kalite için tahmini boyut (29.0 MB) kaynağın video akışından (9.3 MB) büyük · libx265: görsel kayıpsız kalite için tahmini boyut (26.8 MB) kaynağın video akışından (9.3 MB) büyük · h264_nvenc: görsel kayıpsız kalite için tahmini boyut (25.9 MB) kaynağın video akışından (9.3 MB) büyük · libx264: görsel kayıpsız kalite için tahmini boyut (17.1 MB) kaynağın video akışından (9.3 MB) büyük"
+ }
+}

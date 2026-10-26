@@ -1,0 +1,44 @@
+{
+ "source": "<PHOTO_ROOT>\\4c65ee62-1378-4bd5-b02a-8db19e1bf84c-4037017.png",
+ "status": "optimized",
+ "message": "Doğrulandı · %42.0 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\4c65ee62-1378-4bd5-b02a-8db19e1bf84c-4037017.optimized.png",
+ "source_bytes": 813423,
+ "output_bytes": 471504,
+ "elapsed_seconds": 7.703,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "40c32721359bd3b66ed06bc5ded19d8a21ba0c3bf991fb3b1398067cb5268af4",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "PNG",
+  "dimensions": [
+   855,
+   1176
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "oxipng reductions + filters",
+  "output_sha256": "954a476fbdfda0a4dd9b2776c43e9565e67b916f8153b4f5dce564147849844d"
+ }
+}

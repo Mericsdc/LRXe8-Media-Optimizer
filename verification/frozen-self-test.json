@@ -1,0 +1,194 @@
+{
+  "tools": {
+    "ffmpeg": "<TEST_WORKSPACE>\\outputs\\LRXe8-Media-Optimizer\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.exe",
+    "ffprobe": "<TEST_WORKSPACE>\\outputs\\LRXe8-Media-Optimizer\\tools\\ffmpeg\\ffmpeg-9.0.2-full_build\\bin\\ffprobe.exe",
+    "jpegtran": "<TEST_WORKSPACE>\\outputs\\LRXe8-Media-Optimizer\\tools\\jpeg\\bin\\jpegtran.exe"
+  },
+  "gpu_memory": [
+    12878610432,
+    11506024448
+  ],
+  "results": [
+    {
+      "source": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\alpha.png",
+      "status": "optimized",
+      "message": "Doğrulandı · %99.3 daha küçük",
+      "output": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\optimized\\alpha.optimized.png",
+      "source_bytes": 24708,
+      "output_bytes": 175,
+      "elapsed_seconds": 0.016,
+      "report": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\optimized\\alpha.a7ac26a854.report.json",
+      "checks": {
+        "dimensions": true,
+        "pixels_exact": true,
+        "alpha_exact": true,
+        "metadata_exact": true,
+        "original_unchanged": true,
+        "smaller": true
+      },
+      "details": {
+        "source_sha256": "28f50847933d0b28e6f1c836affdb987a0ec17dc507acdf1e8e8fc756ed7a3bf",
+        "options": {
+          "quality": "high",
+          "compatibility": "auto",
+          "software": true,
+          "max_parallel": 1,
+          "threads": 8,
+          "sample_seconds": 1.0,
+          "sample_timeout": 180
+        },
+        "format": "PNG",
+        "dimensions": [
+          96,
+          64
+        ],
+        "frames": 1,
+        "policy": "exact decoded pixels + metadata; no resize",
+        "output_sha256": "5637eced7183ce3cdb5e64785ae0e991ea19c59f2d5a8f698e391fbb3febbc4e"
+      }
+    },
+    {
+      "source": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\photo.jpg",
+      "status": "optimized",
+      "message": "Doğrulandı · %23.1 daha küçük",
+      "output": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\optimized\\photo.optimized.jpg",
+      "source_bytes": 726,
+      "output_bytes": 558,
+      "elapsed_seconds": 0.172,
+      "report": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\optimized\\photo.72e24756b4.report.json",
+      "checks": {
+        "dimensions": true,
+        "pixels_exact": true,
+        "alpha_exact": true,
+        "metadata_exact": true,
+        "original_unchanged": true,
+        "smaller": true
+      },
+      "details": {
+        "source_sha256": "24a3ae2460c4cc74b854648712f399c53971f9bcb72f0dfbe0dbc39949ed3488",
+        "options": {
+          "quality": "high",
+          "compatibility": "auto",
+          "software": true,
+          "max_parallel": 1,
+          "threads": 8,
+          "sample_seconds": 1.0,
+          "sample_timeout": 180
+        },
+        "format": "JPEG",
+        "dimensions": [
+          96,
+          64
+        ],
+        "frames": 1,
+        "policy": "exact decoded pixels + metadata; no resize",
+        "output_sha256": "65d34ee38e896b68785f64fcb7d26764410dc002431f5b44a0d0bff1d695ec0f"
+      }
+    },
+    {
+      "source": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\photo.webp",
+      "status": "kept",
+      "message": "Doğrulanan çıktı daha küçük değil; orijinal korundu.",
+      "output": null,
+      "source_bytes": 44,
+      "output_bytes": 0,
+      "elapsed_seconds": 0.016,
+      "report": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\optimized\\photo.1d08daead3.report.json",
+      "checks": {
+        "dimensions": true,
+        "pixels_exact": true,
+        "alpha_exact": true,
+        "metadata_exact": true,
+        "original_unchanged": true,
+        "smaller": false
+      },
+      "details": {
+        "source_sha256": "10579f593a793d802cf53af6207b2f09e1908b844e5f167a9d8d938d6bb13df5",
+        "options": {
+          "quality": "high",
+          "compatibility": "auto",
+          "software": true,
+          "max_parallel": 1,
+          "threads": 8,
+          "sample_seconds": 1.0,
+          "sample_timeout": 180
+        },
+        "format": "WEBP",
+        "dimensions": [
+          96,
+          64
+        ],
+        "frames": 1,
+        "policy": "exact decoded pixels + metadata; no resize",
+        "candidate_bytes": 44
+      }
+    },
+    {
+      "source": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\photo.heic",
+      "status": "kept",
+      "message": "HEIF: güvenle kaldırılabilecek son dolgu alanı yok; orijinal korundu.",
+      "output": null,
+      "source_bytes": 666,
+      "output_bytes": 0,
+      "elapsed_seconds": 0.0,
+      "report": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\optimized\\photo.3d7bf7c8f5.report.json",
+      "checks": {
+        "original_unchanged": true
+      },
+      "details": {
+        "source_sha256": "4cd53d29aa1ed3054f4ab3b405b6029af6e30f85ac22a68f0823741736a11349",
+        "options": {
+          "quality": "high",
+          "compatibility": "auto",
+          "software": true,
+          "max_parallel": 1,
+          "threads": 8,
+          "sample_seconds": 1.0,
+          "sample_timeout": 180
+        },
+        "format": "HEIF",
+        "dimensions": [
+          96,
+          64
+        ],
+        "frames": 1,
+        "policy": "exact decoded pixels + metadata; no resize",
+        "reason": "HEIF: güvenle kaldırılabilecek son dolgu alanı yok; orijinal korundu."
+      }
+    },
+    {
+      "source": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\photo.avif",
+      "status": "kept",
+      "message": "AVIF: güvenle kaldırılabilecek son dolgu alanı yok; orijinal korundu.",
+      "output": null,
+      "source_bytes": 499,
+      "output_bytes": 0,
+      "elapsed_seconds": 0.0,
+      "report": "<TEST_WORKSPACE>\\work\\frozen-smoke\\self-test-d31d43ca\\optimized\\photo.374be70280.report.json",
+      "checks": {
+        "original_unchanged": true
+      },
+      "details": {
+        "source_sha256": "9bbe1d37b8cbfc4ceb541e78f401b462ba1e14cb51575aec89ecd9f060d2accd",
+        "options": {
+          "quality": "high",
+          "compatibility": "auto",
+          "software": true,
+          "max_parallel": 1,
+          "threads": 8,
+          "sample_seconds": 1.0,
+          "sample_timeout": 180
+        },
+        "format": "AVIF",
+        "dimensions": [
+          96,
+          64
+        ],
+        "frames": 1,
+        "policy": "exact decoded pixels + metadata; no resize",
+        "reason": "AVIF: güvenle kaldırılabilecek son dolgu alanı yok; orijinal korundu."
+      }
+    }
+  ],
+  "status": "passed"
+}

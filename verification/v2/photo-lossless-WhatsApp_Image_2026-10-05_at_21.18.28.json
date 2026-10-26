@@ -1,0 +1,44 @@
+{
+ "source": "<PHOTO_ROOT>\\WhatsApp Image 2026-10-05 at 21.18.28.jpeg",
+ "status": "optimized",
+ "message": "Doğrulandı · %1.5 daha küçük",
+ "output": "<TEST_WORKSPACE>\\ph1\\WhatsApp Image 2026-10-05 at 21.18.28.optimized.jpeg",
+ "source_bytes": 254833,
+ "output_bytes": 251004,
+ "elapsed_seconds": 0.687,
+ "report": null,
+ "checks": {
+  "dimensions": true,
+  "pixels_exact": true,
+  "alpha_exact": true,
+  "metadata_exact": true,
+  "original_unchanged": true,
+  "smaller": true
+ },
+ "details": {
+  "source_sha256": "4012ce1011a5a96db792265bf2c6721f5d7f20768aae4473d0c09457d9c2ecd6",
+  "options": {
+   "quality": "high",
+   "compatibility": "auto",
+   "software": true,
+   "max_parallel": 2,
+   "threads": 0,
+   "sample_seconds": 2.0,
+   "sample_timeout": 600,
+   "photo_mode": "lossless",
+   "photo_target_kb": 256,
+   "photo_format": "auto",
+   "strip_metadata": false
+  },
+  "format": "JPEG",
+  "dimensions": [
+   1600,
+   1200
+  ],
+  "frames": 1,
+  "policy": "exact decoded pixels + metadata; no resize",
+  "photo_mode": "lossless",
+  "method": "MozJPEG lossless (all markers copied)",
+  "output_sha256": "036b8b8a28c8fa5d3f616bcf2ccac0691d4dd72ab958013a9cc53682966785e8"
+ }
+}
