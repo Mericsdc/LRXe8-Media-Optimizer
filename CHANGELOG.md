@@ -5,6 +5,7 @@
 - **Uygulama içi güncelleme:** sağ üstte "Güncellemeleri denetle". GitHub Releases'teki en son sürümü kontrol eder; yeni sürümü indirir, boyutunu ve SHA-256 değerini doğrular, uygulamayı kapatıp sessizce günceller ve yeniden açar (Mac'te DMG'yi açar). İnternet yalnızca bu düğmeye basınca kullanılır.
 - **Buy me a beer** butonu (buymeacoffee.com/Lurexa) uygulamada ve README'de.
 - Güncellemeden sonra masaüstü kısayolunun eski logoyu göstermesi giderildi: kurulum artık Windows'a simgeleri yenilemesini bildirir (EXE yolu aynı kaldığı için Windows önbellekteki eski simgeyi gösteriyordu).
+- Paketlemede PATH'teki başka bir programın eski OpenSSL 3.0 DLL'i Python'un OpenSSL 3.5'i yerine pakete girebiliyordu ("DLL load failed while importing _ssl"). Derleme artık Python'un kendi OpenSSL'ini kullanır; paket testi TLS'i de denetler.
 - Kaynak kod GitHub'da: https://github.com/Mericsdc/LRXe8-Media-Optimizer. Temiz kopyada araçları indirmek için `tools_dev/fetch_windows_tools.ps1`.
 
 ## 2.2.0 — 26 Ekim 2026

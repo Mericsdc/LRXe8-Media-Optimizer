@@ -20,6 +20,10 @@ def self_test(destination: Path) -> int:
     data = {'tools': {key: find_tool(key, False) for key in ('ffmpeg', 'ffprobe', 'jpegtran', 'oxipng', 'ssimulacra2')},
             'gpu_memory': gpu_memory(), 'results': []}
     try:
+        # The update check needs TLS: the bundled OpenSSL must match Python's _ssl.
+        import ssl
+        data['openssl'] = ssl.OPENSSL_VERSION
+        ssl.create_default_context()
         engine = Engine(Options(max_parallel=1))
         picture = Image.new('RGBA', (96, 64), (17, 80, 100, 128))
         try:

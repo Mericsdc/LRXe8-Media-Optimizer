@@ -23,6 +23,13 @@ VSVersionInfo(ffi=FixedFileInfo(filevers=($parts), prodvers=($parts)), kids=[
     # PyInstaller cannot see it: add it explicitly; its DLL dependencies follow.
     $esrgan = & $Python -c "import importlib.util, pathlib; p = pathlib.Path(importlib.util.find_spec('realesrgan_ncnn_py').submodule_search_locations[0]); print(next(p.glob('realesrgan_ncnn_vulkan_wrapper*')))"
     if (-not (Test-Path -LiteralPath $esrgan)) { throw 'realesrgan-ncnn-py kurulu değil (pip install -r requirements.txt)' }
+    # OpenSSL must be the one Python's _ssl.pyd was built against. Other programs on
+    # PATH (PostgreSQL, Git) ship older libssl/libcrypto with the same file names;
+    # PyInstaller once bundled those and the update check died with
+    # "DLL load failed while importing _ssl". Search Python's DLLs first and add them explicitly.
+    $pythonDlls = & $Python -c "import os, sys; print(os.path.join(sys.base_prefix, 'DLLs'))"
+    $env:PATH = "$pythonDlls;$env:PATH"
+    $openssl = @('libssl-3-x64.dll', 'libcrypto-3-x64.dll') | ForEach-Object { '--add-binary'; "$pythonDlls\$_;." }
     # PyInstaller logs to stderr; Windows PowerShell would turn that into errors.
     $ErrorActionPreference = 'Continue'
     & $Python -m PyInstaller --noconfirm --clean --onedir --windowed --log-level WARN --name LRXe8-Media-Optimizer `
@@ -32,7 +39,7 @@ VSVersionInfo(ffi=FixedFileInfo(filevers=($parts), prodvers=($parts)), kids=[
         --add-binary "$esrgan;realesrgan_ncnn_py" --collect-data realesrgan_ncnn_py `
         --add-binary "$env:SystemRoot\System32\msvcp140.dll;realesrgan_ncnn_py" `
         --add-binary "$env:SystemRoot\System32\vcomp140.dll;realesrgan_ncnn_py" `
-        --exclude-module cv2 --exclude-module numpy `
+        --exclude-module cv2 --exclude-module numpy @openssl `
         --distpath "$projectRoot\build\dist" --workpath "$projectRoot\build\work" --specpath "$projectRoot\build" `
         "$projectRoot\launch.py" 2>&1 | ForEach-Object { "$_" }
     $code = $LASTEXITCODE
