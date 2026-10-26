@@ -978,18 +978,14 @@ class MainWindow(QMainWindow):
         if not info['newer']:
             QMessageBox.information(self, 'Güncel', f'En güncel sürümü kullanıyorsun ({__version__}).')
             return
-        notes = info['notes'].strip()
-        if len(notes) > 900:
-            notes = notes[:900].rsplit('\n', 1)[0] + '\n…'
+        # Release notes are Markdown; they are read on the release page, not in a raw text box.
         box = QMessageBox(self)
         box.setWindowTitle('Yeni sürüm hazır')
         box.setText(f"<b>LRXe8 Media Optimizer {info['version']}</b> yayınlandı (şu an {__version__}).")
         box.setInformativeText('Şimdi indirip kurmak ister misin? Uygulama kapanıp güncellenir ve yeniden açılır.'
                                if info['asset'] else 'Bu sistem için kurulum dosyası yok; sürüm sayfasını açabilirsin.')
-        if notes:
-            box.setDetailedText(notes)
         install = box.addButton('İndir ve kur', QMessageBox.AcceptRole) if info['asset'] else None
-        page = box.addButton('Sürüm sayfası', QMessageBox.HelpRole)
+        page = box.addButton('Yenilikleri gör', QMessageBox.HelpRole)
         box.addButton('Sonra', QMessageBox.RejectRole)
         box.exec()
         if box.clickedButton() is page:
