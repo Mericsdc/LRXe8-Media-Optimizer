@@ -1,0 +1,10 @@
+LRXe8 Media Optimizer
+Copyright 2026 Mericsdc (LRXe8)
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Binary distributions (installer, ZIP, macOS app) also bundle third-party
+components that remain under their own licenses, including FFmpeg (GPL),
+Qt / PySide6 (LGPL), Pillow, pillow-heif, psutil, MozJPEG, oxipng,
+libjxl/ssimulacra2 and Real-ESRGAN/ncnn. See THIRD-PARTY.md and the
+licenses/ folder for details and source locations.

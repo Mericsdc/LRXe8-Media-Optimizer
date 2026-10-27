@@ -45,7 +45,8 @@ def self_test(destination: Path) -> int:
             data['results'].append(result.to_dict())
             if result.status not in {'optimized', 'kept'}:
                 raise RuntimeError(f'{name}: {result.message}')
-        required = ('ffmpeg', 'ffprobe', 'oxipng') + (('jpegtran', 'ssimulacra2') if os.name == 'nt' else ())
+        # jpegtran is optional everywhere (MozJPEG covers lossless JPEG); ssimulacra2 ships on Windows.
+        required = ('ffmpeg', 'ffprobe', 'oxipng') + (('ssimulacra2',) if os.name == 'nt' else ())
         if not all(data['tools'][name] for name in required):
             raise RuntimeError('Paket araçları eksik: ' + ', '.join(name for name in required if not data['tools'][name]))
         compact_source = destination / 'small-source.png'

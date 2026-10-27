@@ -72,7 +72,7 @@ VSVersionInfo(ffi=FixedFileInfo(filevers=($parts), prodvers=($parts)), kids=[
         $stage = Join-Path $projectRoot "build\package\LRXe8-Media-Optimizer-$version"
         if (Test-Path -LiteralPath $stage) { Remove-Item -LiteralPath $stage -Recurse -Force }
         New-Item -ItemType Directory -Force -Path $stage | Out-Null
-        foreach ($item in 'app', 'tools', 'assets', 'licenses', 'Baslat.cmd', 'README.md', 'CHANGELOG.md', 'THIRD-PARTY.md', 'TEST-REPORT.md') {
+        foreach ($item in 'app', 'tools', 'assets', 'licenses', 'Baslat.cmd', 'README.md', 'CHANGELOG.md', 'THIRD-PARTY.md', 'TEST-REPORT.md', 'LICENSE', 'NOTICE') {
             Copy-Item -LiteralPath (Join-Path $projectRoot $item) -Destination $stage -Recurse
         }
         $zip = "$projectRoot\dist\LRXe8-Media-Optimizer-$version-win64.zip"

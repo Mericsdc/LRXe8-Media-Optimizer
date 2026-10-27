@@ -1,5 +1,7 @@
 # Paket bileşenleri
 
+LRXe8 Media Optimizer'ın kendi kaynak kodu Apache License 2.0 ile lisanslıdır (`LICENSE`, `NOTICE`). Aşağıdaki bileşenler pakete eklenir ve kendi lisanslarına tabidir.
+
 Bu dosya paket içindeki bileşenleri ve yeniden elde etme kaynaklarını kaydeder. Sürümler bu teslimde sabitlenmiştir; uygulama kendiliğinden güncelleme veya araç indirmesi yapmaz.
 
 | Bileşen | Sürüm | Kaynak / lisans bilgisi |

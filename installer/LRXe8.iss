@@ -66,6 +66,8 @@ Source: "{#Root}\licenses\*"; DestDir: "{app}\licenses"; Flags: ignoreversion re
 Source: "{#Root}\README.md"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#Root}\CHANGELOG.md"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#Root}\THIRD-PARTY.md"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#Root}\LICENSE"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#Root}\NOTICE"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{autoprograms}\{#AppName}"; Filename: "{app}\{#AppExe}"; WorkingDir: "{app}"; Comment: "Video ve fotoğrafları kaliteyi bozmadan küçült"

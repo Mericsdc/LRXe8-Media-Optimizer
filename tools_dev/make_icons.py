@@ -7,7 +7,7 @@ wizard bitmaps. The master should be square-ish with a transparent background.
 from pathlib import Path
 import sys
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFilter
 
 ROOT = Path(__file__).resolve().parents[1]
 BG = (0, 0, 0)
@@ -28,30 +28,15 @@ def square(master: Image.Image, size: int, fill: float) -> Image.Image:
     return result
 
 
-def font(size, bold=False):
-    names = ['segoeuib.ttf', 'arialbd.ttf'] if bold else ['segoeui.ttf', 'arial.ttf']
-    for name in names + ['/System/Library/Fonts/SFNS.ttf', '/System/Library/Fonts/Helvetica.ttc']:
-        try:
-            return ImageFont.truetype(name, size)
-        except OSError:
-            pass
-    return ImageFont.load_default()
-
-
 def wizard(master, width, height, path):
+    """Installer side panel: the logo (which already carries the product name) on a blue glow."""
     image = Image.new('RGB', (width, height), BG)
     glow = Image.new('RGB', (width, height), BG)
     draw = ImageDraw.Draw(glow)
-    draw.ellipse((-width * .4, height * .05, width * 1.4, height * .75), fill=(10, 42, 110))
-    image = Image.blend(image, glow.filter(ImageFilter.GaussianBlur(width * .25)), .9)
-    logo = square(master, int(width * .78), 1.0)
-    image.paste(logo, ((width - logo.width) // 2, int(height * .2)), logo)
-    draw = ImageDraw.Draw(image)
-    y = int(height * .2) + logo.height + int(height * .05)
-    for text, size, colour in (('LRXe8', .14, (240, 245, 255)), ('Media Optimizer', .075, (90, 162, 255))):
-        face = font(int(width * size), bold=size > .1)
-        draw.text(((width - draw.textlength(text, font=face)) / 2, y), text, font=face, fill=colour)
-        y += int(width * size * 1.35)
+    draw.ellipse((-width * .5, height * .15, width * 1.5, height * .85), fill=(12, 48, 128))
+    image = Image.blend(image, glow.filter(ImageFilter.GaussianBlur(width * .3)), .9)
+    logo = square(master, int(width * .86), 1.0)
+    image.paste(logo, ((width - logo.width) // 2, (height - logo.height) // 2), logo)
     image.save(path)
 
 

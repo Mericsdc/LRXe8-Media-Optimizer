@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/lisans-Apache%202.0-blue" alt="Lisans: Apache 2.0"></a>
+</p>
+
+<p align="center">
   <a href="https://www.buymeacoffee.com/Lurexa"><img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20beer&emoji=%F0%9F%8D%BA&slug=Lurexa&button_colour=FFDD00&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=ffffff" alt="Buy me a beer"></a>
 </p>
 
@@ -20,7 +24,7 @@
 
 Windows 11 ve macOS için yerel video ve fotoğraf optimizasyon uygulaması. Kaynakları değiştirmez; yalnızca doğrulamadan geçen çıktıları ayrı dosya olarak kaydeder. Dosyalar hiçbir zaman internete yüklenmez.
 
-Güncel sürüm: **2.2.1** — uygulama içi güncelleme, yapay zekâ ile büyütme (4K), yeni logo ve siyah tema, macOS desteği. Ayrıntılar `CHANGELOG.md`, gerçek dosya sonuçları `TEST-REPORT.md` içindedir. Mac için: `README-macOS.md`.
+Güncel sürüm: **2.2.2** — yeni LRXe8 logosu, Apache 2.0 lisansı, uygulama içi güncelleme, yapay zekâ ile büyütme (4K), yeni logo ve siyah tema, macOS desteği. Ayrıntılar `CHANGELOG.md`, gerçek dosya sonuçları `TEST-REPORT.md` içindedir. Mac için: `README-macOS.md`.
 
 ## Kurulum
 
@@ -164,6 +168,10 @@ app\LRXe8-Media-Optimizer.exe self-test --output "D:\LRXe8-Test"
 `core.py`: seçenekler, kalite eşikleri, süreç/iptal, kaynak bütçesi, atomik çıktı. `probe.py`: medya/zamanlama/metadata doğrulaması. `video.py`: kodlayıcı planı, 10-bit hedef biçim, CQ araması, VMAF+CAMBI ölçümü, tam doğrulama. `photos.py`: kayıpsız fotoğraf yolları. `photo_small.py`: görsel kayıpsız küçültme. `upscale.py`: yapay zekâ/klasik büyütme (ayrı süreçte Real-ESRGAN). `updater.py`: GitHub Releases üzerinden güncelleme. `engine.py`: iş yaşam döngüsü. `gui.py`: PySide6 arayüzü. `status.py`: motor mesajlarının sade Türkçe karşılıkları ve ilerleme tahmini. `tests/`: regresyon ve veri bütünlüğü testleri.
 
 Paket bağımlılıkları ve lisanslar `THIRD-PARTY.md` dosyasındadır.
+
+## Lisans
+
+LRXe8 Media Optimizer'ın kaynak kodu **Apache License 2.0** ile lisanslıdır; ayrıntılar `LICENSE` ve `NOTICE` dosyalarında. Kurulum paketine dahil üçüncü taraf bileşenler (FFmpeg, Qt/PySide6, Real-ESRGAN, oxipng vb.) kendi lisanslarıyla dağıtılır; liste ve kaynak adresleri `THIRD-PARTY.md` ile `licenses/` klasöründedir.
 
 ## Destek
 

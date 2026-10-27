@@ -12,10 +12,10 @@ Add-Type -AssemblyName System.IO.Compression.FileSystem
 function Fetch([string]$url, [string]$name) {
     $file = Join-Path $temp $name
     if (-not (Test-Path -LiteralPath $file)) {
-        Write-Output "İndiriliyor: $url"
+        Write-Host "İndiriliyor: $url"
         Invoke-WebRequest -Uri $url -OutFile $file -UseBasicParsing
     }
-    Write-Output ("  SHA-256 {0}" -f (Get-FileHash -Algorithm SHA256 -LiteralPath $file).Hash)
+    Write-Host ("  SHA-256 {0}" -f (Get-FileHash -Algorithm SHA256 -LiteralPath $file).Hash)
     return $file
 }
 
@@ -35,17 +35,13 @@ if (-not (Test-Path "$tools\oxipng\oxipng-10.2.1-x86_64-pc-windows-msvc\oxipng.e
 # ssimulacra2 from libjxl 0.12.0 — visually lossless photo check (only this tool + licences)
 if (-not (Test-Path "$tools\jxl\ssimulacra2.exe")) {
     $zip = Fetch 'https://github.com/libjxl/libjxl/releases/download/v0.12.0/jxl-x64-windows-static.zip' 'jxl.zip'
-    $archive = [IO.Compression.ZipFile]::OpenRead($zip)
-    try {
-        New-Item -ItemType Directory -Force -Path "$tools\jxl\licenses" | Out-Null
-        foreach ($entry in $archive.Entries) {
-            if ($entry.FullName -eq 'x64-windows-static/bin/ssimulacra2.exe') {
-                [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, "$tools\jxl\ssimulacra2.exe", $true)
-            } elseif ($entry.FullName -like 'x64-windows-static/licenses/*' -and $entry.Name) {
-                [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, "$tools\jxl\licenses\$($entry.Name)", $true)
-            }
-        }
-    } finally { $archive.Dispose() }
+    # The archive uses Deflate64, which .NET and tar.exe cannot read; Explorer's zip handler can.
+    New-Item -ItemType Directory -Force -Path "$tools\jxl\licenses" | Out-Null
+    $shell = New-Object -ComObject Shell.Application
+    $inner = (Resolve-Path -LiteralPath $zip).Path + '\x64-windows-static'
+    $shell.NameSpace((Resolve-Path "$tools\jxl").Path).CopyHere($shell.NameSpace("$inner\bin").ParseName('ssimulacra2.exe'), 0x614)
+    $shell.NameSpace((Resolve-Path "$tools\jxl\licenses").Path).CopyHere($shell.NameSpace("$inner\licenses").Items(), 0x614)
+    if (-not (Test-Path "$tools\jxl\ssimulacra2.exe")) { throw 'ssimulacra2.exe could not be extracted' }
 }
 
 # jpegtran is optional: MozJPEG (Python package) already does lossless JPEG optimisation.

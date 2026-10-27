@@ -1,5 +1,12 @@
 # Değişiklikler
 
+## 2.2.2 — 27 Ekim 2026
+
+- **Doğru logo:** LRXe8 Media Optimizer'ın kendi mavi cam logosu (önceki sürümde yanlışlıkla ISLe8 logosu kullanılmıştı). Uygulama simgesi, pencere başlığı, kurulum sihirbazı ve Mac simgesi güncellendi.
+- **Lisans:** kaynak kod Apache License 2.0 (`LICENSE`, `NOTICE`). Üçüncü taraf bileşenler kendi lisanslarıyla (`THIRD-PARTY.md`).
+- Paket testi Windows'ta jpegtran'ı artık zorunlu tutmaz (kayıpsız JPEG için MozJPEG yeterli).
+- Depo bağlantısı SSH: `git@github.com:Mericsdc/LRXe8-Media-Optimizer.git`.
+
 ## 2.2.1 — 26 Ekim 2026
 
 - **Uygulama içi güncelleme:** sağ üstte "Güncellemeleri denetle". GitHub Releases'teki en son sürümü kontrol eder; yeni sürümü indirir, boyutunu ve SHA-256 değerini doğrular, uygulamayı kapatıp sessizce günceller ve yeniden açar (Mac'te DMG'yi açar). İnternet yalnızca bu düğmeye basınca kullanılır.
